@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44.99 45.75">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: 1.5px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-5 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2, .cls-4, .cls-5 {
+        stroke: #404145;
+      }
+
+      .cls-1, .cls-4, .cls-5 {
+        stroke-linecap: round;
+      }
+
+      .cls-3 {
+        stroke: #c5c6c9;
+      }
+
+      .cls-6 {
+        fill: #e4e5e7;
+      }
+
+      .cls-4 {
+        fill: #8c52ff;
+        stroke-linejoin: round;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path class="cls-6" d="M25.28,45.75c10.59,0,19.17-8.58,19.17-19.17S35.87,7.41,25.28,7.41,6.11,15.99,6.11,26.58s8.58,19.17,19.17,19.17Z"/>
+  <path class="cls-5" d="M16.85,32.95c8.89,0,16.1-7.21,16.1-16.1S25.75,.75,16.85,.75,.75,7.96,.75,16.85s7.21,16.1,16.1,16.1Z"/>
+  <path class="cls-1" d="M9.25,6.98c2.74-2.26,6.26-3.25,9.56-2.56"/>
+  <path class="cls-4" d="M29.19,33.27l10.04,10.04c.59,.59,1.47,.59,2.05,0l1.03-1.03c.59-.59,.59-1.47,0-2.05l-10.04-10.04c-.59-.59-1.47-.59-2.05,0l-1.03,1.03c-.59,.59-.59,1.47,0,2.05Z"/>
+  <path class="cls-1" d="M29.5,30.27l-1.69-1.69"/>
+  <path class="cls-2" d="M8.18,18.39v.77c0,.84,.69,1.53,1.53,1.53h.77c.84,0,1.53-.69,1.53-1.53v-.77c.08-1.53-3.83-1.84-3.83-3.37v-.46c0-.84,.69-1.53,1.53-1.53h.77c.84,0,1.53,.69,1.53,1.53v.77"/>
+  <path class="cls-2" d="M19.15,20.69h-3.83v-7.67h3.83"/>
+  <path class="cls-2" d="M15.32,16.85h3.07"/>
+  <path class="cls-2" d="M24.75,20.69h-2.3c-.46,0-.77-.31-.77-.77v-6.13c0-.46,.31-.77,.77-.77h2.3c.46,0,.77,.31,.77,.77v6.13c0,.46-.31,.77-.77,.77Z"/>
+  <path class="cls-3" d="M38.32,21.45v1.53"/>
+  <path class="cls-3" d="M38.32,24.52v1.53"/>
+  <path class="cls-3" d="M37.55,23.75h-1.53"/>
+  <path class="cls-3" d="M40.62,23.75h-1.53"/>
+  <path class="cls-3" d="M42.69,28.35v1.53"/>
+  <path class="cls-3" d="M42.69,31.42v1.53"/>
+  <path class="cls-3" d="M41.92,30.65h-1.53"/>
+  <path class="cls-3" d="M44.99,30.65h-1.53"/>
+  <path class="cls-3" d="M19.15,36.02v1.53"/>
+  <path class="cls-3" d="M19.15,39.09v1.53"/>
+  <path class="cls-3" d="M18.39,38.32h-1.53"/>
+  <path class="cls-3" d="M21.45,38.32h-1.53"/>
+</svg>
