@@ -45,12 +45,11 @@
         {
         title: "Logo & Brand Identity",
         src: "assets/img/graphics_page/Logo _ Brand Identity_B_2x.png",
-        item1: "Logo Design"
+        item1: "Logo Design",
         },
         {
         title: "Web & App Design",
         src: "assets/img/graphics_page/Web _ App_2x.png",
-
         },
         {
         title: "Art & Illustration",
@@ -76,7 +75,6 @@
         title: "Packaging & Covers",
         src: "assets/img/graphics_page/Packaging_Labels_2x.png",
         },
-    
     ];
     const service = [
         {
@@ -115,8 +113,12 @@
         <div className="max-w-[86rem] mx-auto ">
             <div className=" p-[40px]   md:flex items-center justify-between ">
             <div className=" md:w-1/2 ">
-                <h2 className=" capitalize "> A mint of creativity </h2>
-                <p className="  ">
+                <h2 className=" capitalize hidden lg:block ">
+                {" "}
+                A mint of creativity{" "}
+                </h2>
+                <h3 className=" capitalize  lg:hidden "> A mint of creativity </h3>
+                <p className="text-sm sm:text-md   md:text-lg lg:text-xl  ">
                 Need to make a lasting impression? The right combination of
                 colors, shapes and words will define your brand. Get the perfect
                 design and ensure your branding hits the spot with these services.
@@ -138,17 +140,35 @@
             <img
                 src="/assets/img/graphics_page/graphics-design-desktop.png "
                 alt="vector"
-                className="visible w-full  h-auto rounded-lg "
+                className="hidden md:block w-full  h-auto rounded-lg "
+            />
+            <img
+                src="/assets/img/graphics_page/graphics-design-mobile.png "
+                alt="vector"
+                className=" md:hidden w-full  h-auto rounded-lg "
             />
 
-
             <h2
-                className=" absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2
-                text-white text-center"
+                className=" lg:leading-relaxed hidden md:block sm:text-[28px] md:text-[32px] lg:text-[36px]  absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2
+                    text-white text-center"
             >
                 Imagination Bleeds From <br />
                 The Pen Of Creativity
             </h2>
+            <h3
+                className="leading-1 hidden sm:block md:hidden text-2xl absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2
+                text-white text-center"
+            >
+                Imagination Bleeds From <br />
+                The Pen Of Creativity
+            </h3>
+            <h4
+                className="leading-1  sm:hidden text-lg  absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2
+                text-white text-center"
+            >
+                Imagination Bleeds From <br />
+                The Pen Of Creativity
+            </h4>
             </div>
 
             <div className="p-[40px]">
@@ -166,13 +186,13 @@
                     const { src, title } = techItem;
                     return (
                     <SwiperSlide>
-                        <div className=" flex items-center   p-[14px] m-2 rounded-md shadow-md ">
+                        <div className=" flex items-center  px-[20px] py-[14px] my-2  rounded-md shadow-md ">
                         <img
                             src={src}
                             alt="vector"
                             className="w-[50px] h-[50px] rounded-lg mr-[.75rem]"
                         />
-                        <h4 className=" flex-[0_0_auto]">{title}</h4>
+                        <h4 className="pt-2 flex-[0_0_auto]">{title}</h4>
                         </div>
                     </SwiperSlide>
                     );
@@ -184,19 +204,15 @@
             <div className="px-[40px]">
             <h3 className="py-[20px]">Our graphics & design Services</h3>
             <div className="flex  justify-between flex-wrap ">
-                {services.map(({ src,title }) => {
+                {services.map(({ src, title }) => {
                 return (
-                    <div className="  w-[100%] sm:w-[50%] md:w-[33.33%] lg:w-[20%] flex-col items-center   m-2 rounded-md  ">
-                    <img
-                        src={src}
-                        alt="vector"
-                        className="w-full  rounded-lg mr-[.75rem]"
-                    />
-                    <h4 className=" flex-[0_0_auto] pt-[12px]">{title}</h4>
+                    <div className="  w-[100%] sm:w-[40%] md:w-[30.33%] lg:w-[20%] flex-col items-center   m-2 rounded-md  ">
+                    <img src={src} alt="vector" className="w-full  rounded-lg " />
+                    <h4 className=" flex-[0_0_auto] pt-[20px]">{title}</h4>
                     <ul>
-                        <li>Logo Design</li>
-                        <li>Brand Style Guides</li>
-                        <li>Font & Typography</li>
+                        <li className="py-1">Logo Design</li>
+                        <li className="py-1">Brand Style Guides</li>
+                        <li className="py-1">Font & Typography</li>
                     </ul>
                     </div>
                 );
@@ -229,7 +245,7 @@
                     {images.map((img) => {
                     return (
                         <SwiperSlide>
-                        <img src={img} alt="vector" className="w-auto h-full" />
+                        <img src={img} alt="vector" className="w-auto  h-full" />
                         </SwiperSlide>
                     );
                     })}
