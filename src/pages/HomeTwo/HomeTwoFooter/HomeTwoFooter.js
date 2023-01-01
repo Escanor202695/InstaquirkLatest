@@ -110,18 +110,24 @@ const HomeTwoFooter = () => {
                     </div>
                     <div className="footer__widget-content">
                       <div className="footer__links">
-                        <ul>       
+                        <ul>
                           <li>
-                          <NavLink to="/seo">SEO</NavLink>
+                            <NavLink to="/seo">SEO</NavLink>
                           </li>
                           <li>
-                          <NavLink to="/web_development">Web Development</NavLink>
+                            <NavLink to="/web_development">
+                              Web Development
+                            </NavLink>
                           </li>
                           <li>
-                          <NavLink to="/graphic_details">Graphics Design</NavLink>
+                            <NavLink to="/graphic_details">
+                              Graphics Design
+                            </NavLink>
                           </li>
                           <li>
-                          <NavLink to="/social_media_management">Social Media Management</NavLink>
+                            <NavLink to="/social_media_management">
+                              Social Media Management
+                            </NavLink>
                           </li>
                         </ul>
                       </div>
@@ -177,8 +183,8 @@ const HomeTwoFooter = () => {
                             </div>
                             <div className="text theme-color ">
                               <span>
-                                <a href="mailto:support@zibber.com">
-                                  support@zibber.com
+                                <a href="mailto:support@Instaquirk.com">
+                                  support@Instaquirk.com
                                 </a>
                               </span>
                             </div>

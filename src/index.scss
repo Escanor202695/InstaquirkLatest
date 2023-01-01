@@ -81,9 +81,9 @@
 
     .swiper-button-next::after,.swiper-button-prev::after{
         color:white !important;
-        background-color: blue !important;
+        background-color:#5916A3 !important;
         box-shadow: 5px 5px solid rgba(0,0,0,.5);
-        transform: scale(.4);
+        transform: scale(.4) translateX(-10%);
         padding: 13px 25px !important;
         border-radius: 1000px;
     }
