@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Offcanvas } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
@@ -293,8 +292,8 @@ const Sidebar = ({ show, handleClose }) => {
                               </div>
                               <div className="text ">
                                 <span>
-                                  <a href="mailto:support@zibber.com">
-                                    support@zibber.com
+                                  <a href="mailto:support@Instaquirk.com">
+                                    support@Instaquirk.com
                                   </a>
                                 </span>
                               </div>
@@ -329,4 +328,3 @@ const Sidebar = ({ show, handleClose }) => {
 };
 
 export default Sidebar;
-

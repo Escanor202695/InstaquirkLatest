@@ -3,6 +3,7 @@
 
 body{
     font-family: Inter !important;
+    box-sizing: border-box !important;
 }
 
 /* @font-face {
