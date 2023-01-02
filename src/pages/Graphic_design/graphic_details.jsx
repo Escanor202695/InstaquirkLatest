@@ -113,7 +113,7 @@ function graphic_details() {
       <div className="max-w-[86rem] mx-auto overflow-hidden">
         <div className=" p-[30px] md:px-[40px] md:py-[30px]  md:flex  justify-between ">
           <div className=" md:w-1/2 ">
-            <h5 className=" capitalize hidden lg:block lg:mt-[60px] md:text-[36px] md:mb-[1rem]">
+            <h5 className=" capitalize hidden lg:block lg:mt-[80px] md:text-[36px] md:mb-[1rem]">
               {" "}
               A mint of creativity{" "}
             </h5>
