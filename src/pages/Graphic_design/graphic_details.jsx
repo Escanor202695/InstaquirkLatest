@@ -46,7 +46,7 @@ function graphic_details() {
         "Absolutely! We would start the development on our development server. Once the website build is complete, we will transfer to your hosting. You can also have us host your website for a minimal monthly fee.",
     },
     {
-      question: "What do you need to get started?What do you need to get started?What do you need to get started?What do you need to get started?",
+      question: "What do you need to get started?'max-h-[8rem''max-h-[8rem''max-h-[8rem''max-h-[8rem''max-h-[8rem'",
       solution:
         "You will have to provide us with : Project brief which describes the Main Idea and specific details, pictures,logo, content, WordPress login details. If you missing some of the requirements just contact us and we will help you with everything. If you need help in any of them, Contact us.",
     },
@@ -210,7 +210,8 @@ function graphic_details() {
           />
 
           <p
-            className=" lg:leading-relaxed font-bold w-[250px] text-[20px] sm:text-[28px] md:text-[22px] lg:text-[30px] md:w-[250px] lg:w-[350px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2
+            className=" leading-[30px] lg:leading-relaxed font-bold w-[350px] text-[22px] sm:text-[28px] md:text-[22px] lg:text-[30px]
+            lg:w-[450px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2
             text-white text-center"
           >
             Imagination Bleeds From The Pen Of Creativity
@@ -252,7 +253,7 @@ function graphic_details() {
           <div className="flex  justify-between flex-wrap ">
             {services.map(({ src, title, item }) => {
               return (
-                <div className="  w-[100%] sm:w-[45%] md:w-[30.33%] lg:w-[23%] flex-col items-center   m-2 rounded-md  ">
+                <div className="  w-[100%] sm:w-[45%] md:w-[30.33%] lg:w-[23%] flex-col items-center  m-2 rounded-md  ">
                   <img src={src} alt="vector" className="w-full  rounded-lg " />
                   <h5 className=" flex-[0_0_auto] pt-[20px] md:text-lg lg:text-xl font-bold">{title}</h5>
 

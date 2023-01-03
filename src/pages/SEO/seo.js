@@ -7,6 +7,7 @@ import Faq from "../HomeTwo/HomeTwoFaq/HomeTwoFaq";
 import Process from "./Our_process/Process";
 import Cooperation from "./Cooperation/Cooperation";
 import Why_seo from "./Why_SEO/Why_seo";
+import Why from '../../components/why';
 function seo() {
   const arrayFaq = [
     {
@@ -35,7 +36,7 @@ function seo() {
       <div className="customize">
         <Why_seo />
       </div>
-
+      <Why/>
       <Cooperation />
       <Process />
       <Faq arrayFaq={arrayFaq} />
