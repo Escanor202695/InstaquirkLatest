@@ -9,7 +9,7 @@ function GalleryImage({ index, images, image }) {
   console.log(image);
   return (
 
-    <div className="w-[100%] sm:w-[50%] md:w-[33.33%] lg:w-[25%] px-2 py-2">
+    <div className="w-[100%] sm:w-[50%] md:w-[33.33%] lg:w-[25%] px-2 py-2 cursor-pointer">
 
     <div className="graphics-photo">
 
