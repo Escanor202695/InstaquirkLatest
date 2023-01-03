@@ -46,7 +46,7 @@ function graphic_details() {
         "Absolutely! We would start the development on our development server. Once the website build is complete, we will transfer to your hosting. You can also have us host your website for a minimal monthly fee.",
     },
     {
-      question: "What do you need to get started?",
+      question: "What do you need to get started?What do you need to get started?What do you need to get started?What do you need to get started?",
       solution:
         "You will have to provide us with : Project brief which describes the Main Idea and specific details, pictures,logo, content, WordPress login details. If you missing some of the requirements just contact us and we will help you with everything. If you need help in any of them, Contact us.",
     },

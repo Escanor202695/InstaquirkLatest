@@ -2,7 +2,7 @@ import React,{useState,useEffect} from "react";
 
 const HomeTwoFaq = ({ arrayFaq }) => {
   const [display, setDisplay] = useState([]);
-  const [height, setHeight] = useState('max-h-[4rem]')
+  const [height, setHeight] = useState('max-h-[8rem]')
 
   useEffect(() => {
     const arr = new Array(arrayFaq.length).fill(0);
@@ -15,13 +15,13 @@ const HomeTwoFaq = ({ arrayFaq }) => {
       const arr = new Array(arrayFaq.length).fill(0);
       arr[index]=1;
       setDisplay(arr);
-      setHeight('max-h-[20rem]')
+      setHeight('max-h-[30rem]')
     }
     else {
       const arr = new Array(arrayFaq.length).fill(0);
       arr[index]=0;
       setDisplay(arr);
-      setHeight('max-h-[4rem]')
+      setHeight('max-h-[8rem]')
     }
   }
   return (
@@ -50,7 +50,7 @@ const HomeTwoFaq = ({ arrayFaq }) => {
                 <div>
                   {arrayFaq.map((q,i) => {
                     return (
-                      <div className={`faq ${height} flex-col my-[1rem] shadow-sm rounded-lg overflow-hidden bg-white `} style={{transition:"all .5s linear"}} onClick={()=>handleDisplay(i)}>
+                      <div className={`faq ${height} flex-col my-[1rem] shadow-sm rounded-lg overflow-hidden bg-white`} style={{transition:"all .5s linear"}} onClick={()=>handleDisplay(i)}>
                         <div className="w-full bg-white h-auto  p-[1rem] flex justify-between align-center gap-[1rem] cursor-pointer">
                           <p className={`text-[15px] mb-0 font-bold`} style={{color:display[i]===1?"#4536FF":null}}>{q.question}</p>
                           <p className={`mb-0`} style={{color:display[i]===1?"#4536FF":null}}>+</p>
