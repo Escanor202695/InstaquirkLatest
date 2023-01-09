@@ -54,8 +54,10 @@ const HomeTwoHeader = () => {
                             <NavLink to="/about">About Us </NavLink>
                           </li>
                           <li>
-                            <a className="services-item">Services</a>
-                            <ul>
+                            <a className="services-item cursor-pointer">
+                              Services
+                            </a>
+                            <ul className="border-t-4 border-[#4536FF] flex-col max-w-[16rem] mt-[-.5rem] ">
                               <li>
                                 <NavLink
                                   to="/web_development"
@@ -77,7 +79,7 @@ const HomeTwoHeader = () => {
                                   to="/social_media_management"
                                   className="dropdown-item social-item"
                                 >
-                                  Social Media Management & Marketing
+                                  Social Media Management
                                 </NavLink>
                               </li>{" "}
                               <li>

@@ -26,10 +26,11 @@ const HomeTwoHeroSlider = () => {
             attr_1={<span className="Instaquirk">Welcome To Instaquirk.</span>}
             attr_2={
               <h1>
-              As the digital era grows,<br/> word of mouth is no longer enough
+                As the digital era grows,
+                <br /> word of mouth is no longer enough
               </h1>
             }
-            btn_text="Enroll Now"
+            btn_text="Hire Us"
           />
 
           <HomeTwoSingleSlide
@@ -44,7 +45,7 @@ const HomeTwoHeroSlider = () => {
               </h1>
             }
             attr_3="We merge imagination and technology to help brands grow in an age of digital transformation."
-            btn_text="Enroll Now"
+            btn_text="Hire Us"
           />
         </Slider>
       </section>
