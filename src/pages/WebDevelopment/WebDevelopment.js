@@ -173,7 +173,7 @@ function webDevelopment(props) {
   const src = "/assets/img/Web development/web.png";
   const headline = "Facilitating beyond";
   const herotext =
-    "   We specialized in providing high-quality web development services to businesses of all sizes. Our team of experienced web developers is committed to delivering results that exceed our clients' expectations. Our flexible and adaptable approach allows us to meet the changing needs of our clients and deliver solutions that drive growth and success. We are also constantly updating our skills and knowledge to stay at the forefront of the industry.";
+    "We have developed a specialty in offering companies of all sizes top-notch web development services. Results that surpass our clients' expectations are what our team of skilled web developers is committed to producing. We can respond to our clients' changing demands and provide solutions that foster success and growth thanks to our flexible and adaptive business model. To remain at the forefront of the industry, we also regularly update our abilities and expertise.";
   const service_headline = "Our Graphics & Design Services";
   return (
     <div>

@@ -13,19 +13,31 @@ import Why from "../../components/why";
 function seo() {
   const arrayFaq = [
     {
-      question: "Why should i choose your agency?",
+      question: "How do you create a social media strategy for my business?",
       solution:
-        "There is no work that we neglect at our company.The only thing we can do to help others is to provide them with services whenever possible.",
+        "We perform a detailed research of your company, your target market, and your rivals to develop a unique social media plan that supports your goals and objectives.",
     },
     {
-      question: "Can you help my business grow?",
-      solution: "Our team always ready to help your business.",
+      question: "Which social media sites are the most effective for my company, and how do you decide?",
+      solution: "To decide which platforms will be most useful for connecting with and engaging with your target audience and competitors, we conduct research and analysis on both groups.",
     },
     {
       question:
-        "I need a complete some talent team for my business. Who will I be working with?",
+        "How do you handle customer engagement and respond to messages on social media?",
       solution:
-        "Our agency team always ready to help  your business and also fixing the problem. You can get our service easily when you have to need.",
+        "We actively monitor and respond to customer inquiries and messages on your social media accounts in a timely and professional manner.",
+    },
+    {
+      question:
+        "How frequently do you post on social media?",
+      solution:
+        "We develop a post schedule and content calendar depending on your company and target demographic, often releasing a mix of daily, weekly, and monthly updates.",
+    },
+    {
+      question:
+        "How do you measure the success of your social media campaigns?",
+      solution:
+        "To assess the effectiveness of our social media efforts and modify our strategy as necessary, we monitor indicators like engagement, followers, website traffic, and sales.",
     },
   ];
 //why
@@ -49,6 +61,11 @@ const array = [
     src:"/assets/img/seo page/2.png",
     heading:"Greater reach and exposure",
     description:" Social media platforms have a large user base, making them an effective way to reach a wide audience. By regularly posting and engaging with followers, businesses can increase their reach and expose their brand to new potential customers.",
+  },
+  {
+    src:"/assets/img/seo page/4  .png",
+    heading:"Generating leads and sales",
+    description:"Social media management may assist organizations in generating leads and boosting revenue through the creation of interesting content and the execution of focused ad campaigns.",
   },
  
 ];
@@ -146,7 +163,7 @@ const array = [
   const src = "/assets/img/seo page/seo1.jpg";
   const headline = "Stand out in the digital world";
   const herotext =
-    "we specialize in helping businesses and organizations elevate their online presence and connect with their audience through strategic and effective social media campaigns. Our team of experienced professionals is skilled in creating and implementing customized strategies that drive results and increase brand awareness.Our services include social media strategy development, content creation, community management, influencer partnerships, and ad campaign management. We are committed to delivering the best possible results for our clients.";
+    "We are a digital agency with a focus on social media management, and with the help of our team, businesses can enhance their online presence, connect with their customers, and get the best results through targeted strategies, content creation, community management, influencer partnerships, and ad campaign management.";
   const service_headline = "Our Graphics & Design Services";
   return (
     <div>

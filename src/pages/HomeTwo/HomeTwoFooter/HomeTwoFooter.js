@@ -35,7 +35,7 @@ const HomeTwoFooter = () => {
                       </div>
                     </div>
                     <div className="footer__widget-content">
-                      <p className="mb-30">
+                      <p className="mb-30 ">
                         Copyright © 2022 All Rights Reserved by Instaquirk
                       </p>
                       <div className="footer__social theme-social mb-30">
@@ -160,49 +160,48 @@ const HomeTwoFooter = () => {
                     <div className="footer__widget-content">
                       <div className="footer__info">
                         <ul>
-                          <li>
-                            <div className="icon">
-                              <i>
-                                {" "}
-                                <BiMap />{" "}
-                              </i>
-                            </div>
-                            <div className="text">
-                              <span>
-                                Ave 14th Street, Mirpur 210, San Franciso, USA
-                                3296.
-                              </span>
-                            </div>
-                          </li>
-                          <li>
-                            <div className="icon theme-color ">
-                              <i>
-                                {" "}
-                                <FaEnvelope />{" "}
-                              </i>
-                            </div>
-                            <div className="text theme-color ">
-                              <span>
-                                <a href="mailto:support@Instaquirk.com">
-                                  support@Instaquirk.com
-                                </a>
-                              </span>
-                            </div>
-                          </li>
-                          <li>
-                            <div className="icon theme-color">
-                              <i>
-                                <FaPhoneAlt />{" "}
-                              </i>
-                            </div>
-                            <div className="text theme-color">
-                              <span>
-                                <a href="tel:(+642)-394-396-432">
-                                  (+642) 394 396 432
-                                </a>
-                              </span>
-                            </div>
-                          </li>
+                        <li>
+                        <div className="icon theme-color pt-2 mr-1 ">
+                        <i>
+                        {" "}
+                        <FaEnvelope />{" "}
+                        </i>
+                        </div>
+                        <div className="text theme-color pt-1">
+                        <span>
+                        <a href="mailto:support@Instaquirk.com">
+                        support@Instaquirk.com
+                        </a>
+                        </span>
+                        </div>
+                        </li>
+                        <li>
+                        <div className="icon theme-color  pt-2 mr-1 ">
+                        <i>
+                        <FaPhoneAlt />{" "}
+                        </i>
+                        </div>
+                        <div className="text theme-color pt-1">
+                        <span>
+                        <a href="tel:(+642)-394-396-432">
+                        (+642) 394 396 432
+                        </a>
+                        </span>
+                        </div>
+                        </li>
+                        <li>
+                          <div className="icon pt-2 mr-1">
+                            <i>
+                              {" "}
+                              <BiMap />{" "}
+                            </i>
+                          </div>
+                          <div className="text  pt-1">
+                            <span>
+                              Dhaka, Bangladesh.
+                            </span>
+                          </div>
+                        </li>
                         </ul>
                       </div>
                     </div>

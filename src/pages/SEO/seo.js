@@ -151,7 +151,7 @@ function seo() {
   const src = "/assets/img/seo page/seo1.jpg";
   const headline = "Elevate your online Presence";
   const herotext =
-  "We specialize in helping businesses improve their online visibility and reach through targeted and effective search engine optimization strategies. Our team of expert SEO professionals has a wealth of experience in the industry and a track record of success in helping our clients achieve their digital marketing goals. We offer a range of services including keyword research, on-page optimization, technical SEO, content marketing, and more, all designed to boost your website's ranking on search engines and drive qualified traffic to your site. Let us help you take your online presence to the next level.";
+  "We are a digital agency that specializes in SEO, our expert team offers services such as keyword research, on-page optimization, technical SEO, and content marketing to boost website's ranking and drive qualified traffic, let us help you take your online presence to the next level.";
   const service_headline = "Our Graphics & Design Services";
   return (
     <div>

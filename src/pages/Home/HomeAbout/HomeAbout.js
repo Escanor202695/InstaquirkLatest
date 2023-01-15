@@ -37,7 +37,7 @@ const HomeAbout = ({ opacity }) => {
                     <ul>
                       <li>
                         <span>
-                          <i>
+                          <i className="border-5 ">
                             {" "}
                             <FaCheck />{" "}
                           </i>
@@ -46,7 +46,7 @@ const HomeAbout = ({ opacity }) => {
                       </li>
                       <li>
                         <span>
-                          <i>
+                          <i className="border-5 ">
                             {" "}
                             <FaCheck />{" "}
                           </i>
@@ -55,7 +55,7 @@ const HomeAbout = ({ opacity }) => {
                       </li>
                       <li>
                         <span>
-                          <i>
+                          <i className="border-5 ">
                             {" "}
                             <FaCheck />{" "}
                           </i>

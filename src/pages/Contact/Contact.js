@@ -16,9 +16,11 @@ const Contact = () => {
     <>
       <HomeOneHeader />
       <CommonPageHeader title="Contact Us" subtitle="Get in touch" />
+      {/*
       <div onClick={handleClick}>
-        <ContactInfoArea />
+      <ContactInfoArea />
       </div>
+    */}
       <div ref={ref}>
         <ContactArea />
       </div>
