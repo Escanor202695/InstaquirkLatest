@@ -33,7 +33,7 @@ const HomeTwoFaq = ({ arrayFaq }) => {
         <div
           className="faq__thumb"
           style={{
-            background: `url(assets/img/20.jpg)`,
+            background: `url(assets/img/44.jpg)`,
             backgroundPosition: "top",
             backgroundSize: "cover",
           }}

@@ -13,24 +13,24 @@ import Services from "../../components/Services/Services";
 function webDevelopment(props) {
   const arrayFaq = [
     {
-      question: "Don't have hosting right now. Can we start?",
+      question: "How do you approach web development projects?",
       solution:
-        "Absolutely! We would start the development on our development server. Once the website build is complete, we will transfer to your hosting. You can also have us host your website for a minimal monthly fee.",
+        "For web development projects, we adhere to a defined procedure to guarantee that each is completed on schedule and with the highest level of quality. Gathering requirements, design, development, testing, and deployment are frequently included in this process."
     },
     {
-      question: "What do you need to get started?",
+      question: "Do you offer responsive web design?",
       solution:
-        "You will have to provide us with : Project brief which describes the Main Idea and specific details, pictures,logo, content, WordPress login details. If you missing some of the requirements just contact us and we will help you with everything. If you need help in any of them, Contact us.",
+        "Yes, we come with responsive web design by default. As a result, the websites we design will be suitable for browsing on a variety of gadgets, such as desktop computers, tablets, and smartphones."
     },
     {
-      question: "Will you maintain my site for me?",
+      question: "Do you have experience with e-commerce development?",
       solution:
         "Of course, we can help you out with proper and professional website maintenance in addition to development as it supports in achieving stabilized growth, keeping your business inclined.",
     },
     {
-      question: "Will my website be mobile-friendly?",
+      question: "Do you have experience with e-commerce development?",
       solution:
-        "It also increases the number of visitors, rankings in search engines.Yes, we ensure to develop a responsive website that would make your visitors appealing and deliver an optimized browsing experience.",
+      "Yes, we have experience creating e-commerce websites and can aid with the setup of an online store for the sale of your goods or services."
     },
   ];
   const services = [
@@ -131,7 +131,7 @@ function webDevelopment(props) {
   ];
   //banner
   const src_banner = "/assets/img/Web development/programming-tech-desktop.png";
-  const src_mobile = "/assets/img/Web development/programming-tech-desktop.png";
+  const src_mobile = "/assets/img/Web development/programming-tech-mobile.png";
   const text_banner = "If you can dream it, we can design it";
   //category
   const category_header = "Most Popular in Programming & Tech";

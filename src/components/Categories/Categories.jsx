@@ -7,7 +7,7 @@ import { Pagination, Navigation } from "swiper";
 function Categories({category_header,cat_item}) {
   return (
     
-    <div className="px-[30px] py-[40px] md:mb-[2rem]">
+    <div className="px-[40px] py-[40px] md:mb-[2rem]">
             <h3 className="py-[20px] font-bold">
                 {category_header}
             </h3>

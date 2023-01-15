@@ -82,6 +82,34 @@ function seo() {
       ],
     },
   ];
+  //why
+  const array = [
+    {
+      src:"/assets/img/seo page/5.png",
+      heading:"You aren't targeting the right keywords",
+      description:" Take a look at the latest search trends in your industry every so often so you don't miss out on valuable search traffic.",
+    },
+    {
+      src:"/assets/img/seo page/4.png",
+      heading:"Search engines may have difficulty crawling your site",
+      description:"A sitemap is essential for SEO. Sitemaps help search engine bots better craw| your site and reduce the risk of overlooking parts of it.",
+    },
+    {
+      src:"/assets/img/seo page/3.png",
+      heading:"You're Wasting Page Rank Opportunities",
+      description:"Internal links help your site visitors navigate your website efficiently and pass page rank along to valuable pages like product or service pages.",
+    },
+    {
+      src:"/assets/img/seo page/2.png",
+      heading:"Rankings disappeared after a website redesign.",
+      description:"Have you recently relaunched your website? It is best to create a 301 redirect so that you don't lose traffic and value from those old pages.",
+    },
+    {
+      src:"/assets/img/seo page/6.png",
+      heading:"The Site Is Slow and Doesn't Rank",
+      description:"Visitors will leave if your site is slow. The search engines do not like slow loading sites either, which is actually a ranking factor",
+    }
+  ];
     //category
     const category_header = "TOP SEO TECHNIQUES ";
     const service = [
@@ -111,7 +139,7 @@ function seo() {
       },
       {
         title: "Voice Search SEO",
-        src: "2394.svg",
+        src: "2300.svg",
       },
      
     ];
@@ -120,7 +148,7 @@ function seo() {
   const src_mobile = "/assets/img/seo page/Blue Minimalist SEO Specialist LinkedIn Banner (3).png";
   const text_banner = "Expertly crafted SEO strategies for your business";
   //hero
-  const src = "/assets/img/seo page/seo.png";
+  const src = "/assets/img/seo page/seo1.jpg";
   const headline = "Elevate your online Presence";
   const herotext =
   "We specialize in helping businesses improve their online visibility and reach through targeted and effective search engine optimization strategies. Our team of expert SEO professionals has a wealth of experience in the industry and a track record of success in helping our clients achieve their digital marketing goals. We offer a range of services including keyword research, on-page optimization, technical SEO, content marketing, and more, all designed to boost your website's ranking on search engines and drive qualified traffic to your site. Let us help you take your online presence to the next level.";
@@ -133,21 +161,20 @@ function seo() {
         subtitle="Outrank your competitor on google"
       />
       <div className="max-w-[86rem] mx-auto overflow-hidden">
-    <span style={{color:"black"}}>
-      <Hero src={src} headline={headline} herotext={herotext} />
-    </span>  
+    <Hero src={src} headline={headline} herotext={herotext} />
 
       <Banner
         src_banner={src_banner}
         src_mobile={src_mobile}
         text_banner={text_banner}
+        page="seo"
       />
       <Categories category_header={category_header} cat_item={service} />
       </div>
       <div className="customize">
         <Why_seo/>
       </div>
-      <Why />
+      <Why array={array}/>
       <Cooperation />
       <Process />
       <Faq arrayFaq={arrayFaq} />

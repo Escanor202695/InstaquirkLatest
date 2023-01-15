@@ -8,6 +8,7 @@ import MarketingSolution from "../../components/MarketingSolution/MarketingSolut
 import Hero from "../../components/HeroArea/Hero";
 import Banner from "../../components/Banner/Banner";
 import Categories from "../../components/Categories/Categories";
+import Why from "../../components/why";
 
 function seo() {
   const arrayFaq = [
@@ -27,7 +28,30 @@ function seo() {
         "Our agency team always ready to help  your business and also fixing the problem. You can get our service easily when you have to need.",
     },
   ];
-
+//why
+const array = [
+  {
+    src:"/assets/img/seo page/5.png",
+    heading:"Increased online presence",
+    description:" Social media management helps to increase a business's online presence by regularly posting content and engaging with followers on various platforms. This can help to attract new customers and boost brand visibility."
+  },
+  {
+    src:"/assets/img/seo page/4.png",
+    heading:"Improved customer engagement",
+    description:"Social media allows businesses to directly interact with their customers, which can lead to increased customer satisfaction and loyalty. By actively managing social media accounts, businesses can respond to customer inquiries, complaints, and feedback in a timely manner.",
+  },
+  {
+    src:"/assets/img/seo page/3.png",
+    heading:"Enhanced brand reputation",
+    description:" Proper social media management can help to maintain a positive brand reputation by carefully monitoring and addressing any negative comments or reviews. It can also allow businesses to proactively share positive content and reviews, helping to build a strong and positive brand image.",
+  },
+  {
+    src:"/assets/img/seo page/2.png",
+    heading:"Greater reach and exposure",
+    description:" Social media platforms have a large user base, making them an effective way to reach a wide audience. By regularly posting and engaging with followers, businesses can increase their reach and expose their brand to new potential customers.",
+  },
+ 
+];
   const services = [
     {
       title: "Websites",
@@ -81,45 +105,45 @@ function seo() {
     },
   ];
   //category
-  const category_header = "TOP SEO TECHNIQUES ";
+  const category_header = "TOP SOCIAL MEDIA PLATFORMS ";
   const service = [
     {
-      title: "Off-Page SEO",
-      src: "assets/img/seo page/2155.svg",
+      title: "Social Media Management",
+      src: "assets/img/marketing/2063.svg",
     },
     {
-      title: "On-Page SEO",
-      src: "assets/img/seo page/2153.svg",
+      title: "Organic Social Promotions",
+      src: "assets/img/marketing/2529.svg",
     },
     {
-      title: "Keyword Research",
-      src: "assets/img/seo page/2070.svg",
+      title: "Profile Setup & Integration",
+      src: "assets/img/marketing/2061.svg",
     },
     {
-      title: "Technical SEO",
-      src: "assets/img/seo page/2154.svg",
+      title: "Socila Content",
+      src: "assets/img/marketing/2062.svg",
     },
     {
-      title: "Competitor Analysis",
-      src: "assets/img/seo page/2156.svg",
+      title: "Consultation & Audience Research",
+      src: "assets/img/marketing/2060.svg",
     },
     {
-      title: "Full SEO Package",
-      src: "assets/img/seo page/2394.svg",
+      title: "Shoppable Content",
+      src: "assets/img/marketing/2508.svg",
     },
     {
-      title: "Voice Search SEO",
-      src: "2394.svg",
+      title: "Analytics & Tracking",
+      src: "assets/img/marketing/2065.svg",
     },
   ];
   //banner
   const src_banner =
-    "/assets/img/seo page/Blue Minimalist SEO Specialist LinkedIn Banner (3).png";
+    "/assets/img/marketing/Digital Marketing SEEK Cover Image 1.png";
   const src_mobile =
-    "/assets/img/seo page/Blue Minimalist SEO Specialist LinkedIn Banner (3).png";
-  const text_banner = "Expertly crafted SEO strategies for your business";
+    "/assets/img/marketing/Digital Marketing SEEK Cover Image 1.png";
+  const text_banner ="";
   //hero
-  const src = "/assets/img/seo page/seo.png";
+  const src = "/assets/img/seo page/seo1.jpg";
   const headline = "Stand out in the digital world";
   const herotext =
     "we specialize in helping businesses and organizations elevate their online presence and connect with their audience through strategic and effective social media campaigns. Our team of experienced professionals is skilled in creating and implementing customized strategies that drive results and increase brand awareness.Our services include social media strategy development, content creation, community management, influencer partnerships, and ad campaign management. We are committed to delivering the best possible results for our clients.";
@@ -141,6 +165,7 @@ function seo() {
         />
         <Categories category_header={category_header} cat_item={service} />
       </div>
+      <Why array={array}/>
       <MarketingSolution />
       <Faq arrayFaq={arrayFaq} />
       <CommonCtaArea />

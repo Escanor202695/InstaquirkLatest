@@ -6,24 +6,23 @@ const AboutMore = () => {
   const aboutMore = [
     {
       id: 1,
-      name: `We Believe In Creativity`,
-      describe: `As an unemployment service provider,
-       we assist clients in finding employment.Assisting professionals and giving them creative ideas to grow their business`,
+      name: `Web Development`,
+      describe: `Create and maintain professional websites, e-commerce and web applications.`
     },
     {
       id: 2,
-      name: `How can we help`,
-      describe: `The client shares his problem with us, and we then offer advice based on our experience`,
+      name: `Graphic Design`,
+      describe: `Create visually appealing designs for marketing materials.`,
     },
     {
       id: 3,
-      name: `we help you to build your career`,
-      describe: `we offer courses in Web Development, Graphics Design, Full Stack SEO, and Social Media Management & Marketing to build your career`,
+      name: `Search Engine Optimization (SEO)`,
+      describe: `Improve website visibility and ranking on search engines.`,
     },
     {
       id: 4,
-      name: `We believe in relation`,
-      describe: `Our goal is to build relationships with our clients by helping them succeed in their business. We give them our most sincere effort to make his business or career`,
+      name: `Social Media Management`,
+      describe: ` Manage social media accounts and increase online presence.`,
     },
   ];
 
@@ -38,7 +37,7 @@ const AboutMore = () => {
                   <div className="section__title mb-25">
                     <span>SOME REASONS TO WORK TOGETHER</span>
                     <h2 className="about-heading">
-                      Our Goal Is Clients’ Success And Future Growth
+                    Providing the top notch services regarding
                     </h2>
                     <div className="parent">
                       {aboutMore.map((aboutItem) => {
