@@ -6,12 +6,11 @@ import HomeTwoFooter from "../HomeTwo/HomeTwoFooter/HomeTwoFooter";
 import Faq from "../HomeTwo/HomeTwoFaq/HomeTwoFaq";
 import Process from "./Our_process/Process";
 import Cooperation from "./Cooperation/Cooperation";
-import Why_seo from "./Why_SEO/Why_seo";
+import WhySeo from "./Why_SEO/Why_seo";
 import Why from "../../components/why";
 import Hero from "../../components/HeroArea/Hero";
 import Banner from "../../components/Banner/Banner";
 import Categories from "../../components/Categories/Categories";
-import Services from "../../components/Services/Services";
 function seo() {
   const arrayFaq = [
     {
@@ -172,7 +171,7 @@ function seo() {
       <Categories category_header={category_header} cat_item={service} />
       </div>
       <div className="customize">
-        <Why_seo/>
+        <WhySeo/>
       </div>
       <Why array={array}/>
       <Cooperation />

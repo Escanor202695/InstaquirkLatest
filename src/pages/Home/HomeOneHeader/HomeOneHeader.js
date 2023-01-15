@@ -1,12 +1,10 @@
 import { useState } from "react";
 import {
-
   FaFacebookF,
   FaPhoneAlt,
   FaEnvelope,
   FaLinkedinIn,
   FaInstagram,
-
 } from "react-icons/fa";
 import { Link, NavLink } from "react-router-dom";
 import Sidebar from "../../../components/Sidebar/Sidebar";
@@ -33,9 +31,9 @@ const HomeOneHeader = () => {
                             <FaFacebookF />
                           </i>{" "}
                         </a>
-  </li>*/}
+  </li>
                       <li>
-                        <a href="#">
+                        <a href="#" className="border-2 border-red-600 transform translate-x-1/3 translate-y-1/3">
                           <i>
                             <FaLinkedinIn />
                           </i>
@@ -47,33 +45,22 @@ const HomeOneHeader = () => {
                             <FaInstagram />
                           </i>
                         </a>
-                      </li>
-
+</li>*/}
                     </ul>
                   </div>
                 </div>
                 <div className="col-xl-6 col-lg-7 col-md-8">
                   <div className="header__info f-right">
-                    <ul>
-                      <li>
-                        <a href="tel:(+468)-254-762-443">
-                          <i>
-                            {" "}
-                            <FaPhoneAlt />{" "}
-                          </i>
-                          (+468) 254 762 443
-                        </a>
-                      </li>
-                      <li>
-                        <a href="www.gmailƒ.com">
-                          <i>
-                            {" "}
-                            <FaEnvelope />{" "}
-                          </i>
-                          support@instaquirk.agency
-                        </a>
-                      </li>
-                    </ul>
+                    {/*<div>
+                      <div><FaPhoneAlt /></div>
+                      <div>+8801517310359</div>
+</div>*/}
+                    <a href="https://mail.google.com/" className="flex text-sm text-white items-center gap-2 py-[.75rem]">
+                      <div>
+                        <FaEnvelope />{" "}
+                      </div>
+                      <div>support@instaquirk.agency</div>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -86,7 +73,6 @@ const HomeOneHeader = () => {
             <div className="container">
               <div className="row align-items-center">
                 <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
-
                   <div
                     className="logo"
                     style={{ display: "flex", alignItems: "center" }}
@@ -103,7 +89,6 @@ const HomeOneHeader = () => {
                     >
                       Instaquirk
                     </div>
-
                   </div>
                   <div className="logo-gradient">
                     <NavLink to="/">
@@ -115,11 +100,7 @@ const HomeOneHeader = () => {
                   <div className="header__bottom-right d-flex justify-content-end align-items-center">
                     <div className="main-menu menu_wrapper_one">
                       <nav id="mobile-menu">
-
-                        
-
                         <ul className="drop-down-menu">
-
                           <li>
                             <NavLink to="/">Home</NavLink>
                           </li>
@@ -127,9 +108,10 @@ const HomeOneHeader = () => {
                             <NavLink to="/about">About Us </NavLink>
                           </li>
                           <li>
-
-                            <a className="services-item">Services</a>
-                            <ul>
+                            <a className="services-item cursor-pointer">
+                              Services
+                            </a>
+                            <ul className="border-t-4 border-[#4536FF] flex-col max-w-[16rem] mt-[-.5rem] ">
                               <li>
                                 <NavLink
                                   to="/web_development"
@@ -151,7 +133,7 @@ const HomeOneHeader = () => {
                                   to="/social_media_management"
                                   className="dropdown-item social-item"
                                 >
-                                  Social Media Management & Marketing
+                                  Social Media Management
                                 </NavLink>
                               </li>{" "}
                               <li>
@@ -177,7 +159,6 @@ const HomeOneHeader = () => {
                         to="/contact"
                         className="z-btn z-btn-white z-btn-white-2"
                       >
-
                         Get a Quote
                       </Link>
                     </div>

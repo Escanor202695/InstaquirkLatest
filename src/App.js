@@ -70,15 +70,11 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/homeTwo" element={<HomeTwo />} />
           <Route path="/homeThree" element={<HomeThree />} />
-          <Route path="/headerStyleFour" element={<HeaderStyleFour />} />
-         
-          <Route path="/headerStyleSix" element={<HeaderStyleSix />} />
-          <Route path="/headerStyleSeven" element={<HeaderStyleSeven />} />
+
           <Route path="/about" element={<About />} />
-          <Route path="/services" element={<Services />} />
+        
           <Route path="/servicesDetails" element={<ServicesDetails />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/portfolioDetails" element={<PortfolioDetails />} />
+
           <Route path="/web_development" element={<WebDevelopment />} />
           {/*<Route path="/team" element={<Team/>} />
             <Route path="/teamDetails" element={<TeamDetails/>} />
