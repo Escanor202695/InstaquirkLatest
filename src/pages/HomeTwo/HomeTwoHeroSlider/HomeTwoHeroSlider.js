@@ -25,20 +25,11 @@ const HomeTwoHeroSlider = () => {
             content_class=""
             attr_1={<span className="Instaquirk">Welcome To Instaquirk.</span>}
             attr_2={
-<<<<<<< HEAD
               <h2 className="text-white">
               Expertise, you can trust in the digital realm.
               </h2>
             }
             btn_text="Contact"
-=======
-              <h1>
-                As the digital era grows,
-                <br /> word of mouth is no longer enough
-              </h1>
-            }
-            btn_text="Hire Us"
->>>>>>> c84cfafec37688beb5d785a9ebd2f8d93096c417
           />
 
           <HomeTwoSingleSlide
@@ -51,11 +42,7 @@ const HomeTwoHeroSlider = () => {
               </h2>
             }
             attr_3="We merge imagination and technology to help brands grow in an age of digital transformation."
-<<<<<<< HEAD
             btn_text="Contact"
-=======
-            btn_text="Hire Us"
->>>>>>> c84cfafec37688beb5d785a9ebd2f8d93096c417
           />
         </Slider>
       </section>

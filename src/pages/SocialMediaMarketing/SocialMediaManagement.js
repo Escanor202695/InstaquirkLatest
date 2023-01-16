@@ -63,7 +63,7 @@ const array = [
     description:" Social media platforms have a large user base, making them an effective way to reach a wide audience. By regularly posting and engaging with followers, businesses can increase their reach and expose their brand to new potential customers.",
   },
   {
-    src:"/assets/img/seo page/4  .png",
+    src:"/assets/img/seo page/4.png",
     heading:"Generating leads and sales",
     description:"Social media management may assist organizations in generating leads and boosting revenue through the creation of interesting content and the execution of focused ad campaigns.",
   },

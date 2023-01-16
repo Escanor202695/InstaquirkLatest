@@ -170,7 +170,7 @@ const HomeTwoFooter = () => {
                         <div className="text theme-color pt-1">
                         <span>
                         <a href="mailto:support@Instaquirk.com">
-                        support@Instaquirk.com
+                        support@instaquirk.agency
                         </a>
                         </span>
                         </div>

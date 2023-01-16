@@ -65,7 +65,7 @@ const ContactArea = () => {
                       <li>
                         <h4>Email Address</h4>
                         <p>
-                          <a href="mailto:Info@example.com">Info@example.com</a>
+                          <a href="mailto:Info@example.com">support@instaquirk.agency</a>
                         </p>
                       </li>
                     </ul>

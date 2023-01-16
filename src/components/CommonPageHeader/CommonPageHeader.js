@@ -42,7 +42,6 @@ const CommonPageHeader = ({ title, subtitle }) => {
                 <h2 className="font-bold">{title}</h2>
                 <p style={{ color: "white", fontSize: "20px" }}>
                   <big>{subtitle}</big>
-                  
                 </p>
               </div>
             </div>

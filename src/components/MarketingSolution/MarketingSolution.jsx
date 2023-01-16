@@ -232,20 +232,22 @@ const MarketingSolution = () => {
 
           {/*  */}
 
-          {/*  */}
-        </div>
-      </div>
-      <div className="last__topic">
-        <h1>
+          </div>
+          
+          </div>
+          {/* 
+          <div className="last__topic">
+          <h1>
           We want to understand the why behind your goals and the impact we can
           have on helping you get there.
-        </h1>
-        <br />
-        <br />
-        <Link to="/contact" className="z-btn z-btn-white mb-30">
+          </h1>
+          <br />
+          <br />
+          <Link to="/contact" className="z-btn z-btn-white mb-30">
           Contact Us
-        </Link>
-      </div>
+          </Link>
+          </div>
+        */}
     </>
   );
 };

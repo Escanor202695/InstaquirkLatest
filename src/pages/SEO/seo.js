@@ -144,7 +144,7 @@ function seo() {
     ];
   //banner
   const src_banner = "/assets/img/seo page/Blue Minimalist SEO Specialist LinkedIn Banner (3).png";
-  const src_mobile = "/assets/img/seo page/Blue Minimalist SEO Specialist LinkedIn Banner (3).png";
+  const src_mobile = "/assets/img/seo page/seo_mobile.png";
   const text_banner = "Expertly crafted SEO strategies for your business";
   //hero
   const src = "/assets/img/seo page/seo1.jpg";
