@@ -14,19 +14,19 @@ import Categories from "../../components/Categories/Categories";
 function seo() {
   const arrayFaq = [
     {
-      question: "Why should i choose your agency?",
+      question: "Why is SEO (search engine optimization) crucial?",
       solution:
-        "There is no work that we neglect at our company.The only thing we can do to help others is to provide them with services whenever possible.",
+        "It is no longer a possibility to not have your most critical keywords appear on the first page of Google. It is required. Consider it like this: In essence, a website is a multimedia, interactive advertisement for your company. You need to distribute that advertisement for it to be effective. You can make it simple for online users to locate your website and learn more about what your company has to offer by using SEO methods and tactics on it. It's great to have a fantastic website, but visitors must have no trouble finding it! Find out more about how SEO and search engines operate:",
     },
     {
-      question: "Can you help my business grow?",
-      solution: "Our team always ready to help your business.",
+      question: "Why do I need an eCommerce SEO expert?",
+      solution: "Your eCommerce website is much different than a typical website. You have a web of content from informational pages to products and categories. Optimizing each of these sections and connecting them together in a logical way (i.e., one that “pleases” search engine algorithms) is extremely important for the success of any eCommerce SEO campaign. With hundreds of eCommerce search marketing clients, we have the ability to look at what has worked for them and apply the same strategies to your website. Don’t fall for an SEO company that will be learning how to optimize your online store “on the fly” while on the job.",
     },
     {
       question:
-        "I need a complete some talent team for my business. Who will I be working with?",
+        "How can we start a campaign for SEO on my website?",
       solution:
-        "Our agency team always ready to help  your business and also fixing the problem. You can get our service easily when you have to need.",
+        " We’ll explain our SEO services and give you more information based on your type of business, your website, and your goals. Remember, each SEO campaign is customized for your website goals and developed to meet your expectations.",
     },
   ];
   const services = [
@@ -136,10 +136,7 @@ function seo() {
         title: "Full SEO Package",
         src: "assets/img/seo page/2394.svg",
       },
-      {
-        title: "Voice Search SEO",
-        src: "2300.svg",
-      },
+   
      
     ];
   //banner

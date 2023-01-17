@@ -141,7 +141,7 @@ const array = [
       src: "assets/img/marketing/2062.svg",
     },
     {
-      title: "Consultation & Audience Research",
+      title: "Audience Research",
       src: "assets/img/marketing/2060.svg",
     },
     {
