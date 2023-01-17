@@ -60,7 +60,7 @@ const HomeTwoFaq = ({ arrayFaq }) => {
                       >
                         <div className="w-full bg-white h-auto  p-[1rem] flex justify-between align-center gap-[1rem] cursor-pointer">
                           <p
-                            className={`text-[15px] mb-0 font-bold`}
+                            className={`leading-7 text-[15px] mb-0 font-bold`}
                             style={{
                               color: display[i] === 1 ? "#4536FF" : null,
                             }}
@@ -68,12 +68,12 @@ const HomeTwoFaq = ({ arrayFaq }) => {
                             {q.question}
                           </p>
                           <p
-                            className={`mb-0`}
+                            className={`mb-0 text-xl`}
                             style={{
                               color: display[i] === 1 ? "#4536FF" : null,
                             }}
                           >
-                            +
+                            {display[i]===0? '+':"-"}
                           </p>
                         </div>
                         <p
