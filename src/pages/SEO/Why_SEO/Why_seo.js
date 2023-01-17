@@ -38,7 +38,7 @@ function Why_seo() {
               <ul>
                 <li>
                   <span>
-                    <i>
+                    <i className="border-5">
                       {" "}
                       <FaCheck />{" "}
                     </i>
@@ -47,7 +47,7 @@ function Why_seo() {
                 </li>
                 <li>
                   <span>
-                    <i>
+                    <i className="border-5">
                       {" "}
                       <FaCheck />{" "}
                     </i>
@@ -56,7 +56,7 @@ function Why_seo() {
                 </li>
                 <li>
                   <span>
-                    <i>
+                    <i className="border-5">
                       {" "}
                       <FaCheck />{" "}
                     </i>
@@ -65,7 +65,7 @@ function Why_seo() {
                 </li>
                 <li>
                   <span>
-                    <i>
+                    <i className="border-5">
                       {" "}
                       <FaCheck />{" "}
                     </i>
@@ -74,7 +74,7 @@ function Why_seo() {
                 </li>
                 <li>
                   <span>
-                    <i>
+                    <i className="border-5">
                       {" "}
                       <FaCheck />{" "}
                     </i>
@@ -83,7 +83,7 @@ function Why_seo() {
                 </li>
                 <li>
                   <span>
-                    <i>
+                    <i className="border-5">
                       {" "}
                       <FaCheck />{" "}
                     </i>

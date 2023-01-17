@@ -2,7 +2,7 @@ import React from 'react'
 
 function Services({service_headline,services}) {
   return (
-    <div className="px-[30px] md:px-[40px]">
+    <div className="px-[40px] md:px-[40px]">
     <h3 className="py-[20px] font-bold">
         {service_headline}
     </h3>

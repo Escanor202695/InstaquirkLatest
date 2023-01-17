@@ -1,0 +1,17 @@
+<svg width="48" height="46" viewBox="0 0 48 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M46 42H2C1.45 42 1 41.55 1 41V4C1 3.45 1.45 3 2 3H46C46.55 3 47 3.45 47 4V41C47 41.55 46.55 42 46 42Z" stroke="#404145" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M1 9H47" stroke="#404145" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M25 13H5V32H25V13Z" fill="#A6EACA" stroke="#404145" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M4 6H6" stroke="#404145" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M8 6H10" stroke="#404145" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M12 6H14" stroke="#404145" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M21 31V29.5599C21 28.1199 17.7 26 15 26C12.3 26 9 28.1099 9 29.5599V31" fill="white"/>
+<path d="M21 31V29.5599C21 28.1199 17.7 26 15 26C12.3 26 9 28.1099 9 29.5599V31" stroke="#404145" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M15 17C12.93 17 11 18.61 11 20.6V22.4C11 24.39 12.93 26 15 26C17.07 26 19 24.39 19 22.4V20.6C19 18.61 17.07 17 15 17Z" fill="white" stroke="#404145" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M29 13H42" stroke="#404145" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M29 17H42" stroke="#404145" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M29 21H36" stroke="#404145" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M29 28H42" stroke="#404145" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M29 32H42" stroke="#404145" stroke-width="1.5" stroke-miterlimit="10"/>
+<path d="M29 36H36" stroke="#404145" stroke-width="1.5" stroke-miterlimit="10"/>
+</svg>

@@ -15,40 +15,29 @@ import HomeTwoHeroSlider from "./HomeTwoHeroSlider/HomeTwoHeroSlider";
 const HomeTwo = () => {
   const Faq = [
     {
-
-      question: "Why should i choose your agency?",
-
-      question: "Why should i choose your agency?",
+      question: "What services does your agency offer?",
       solution:
-        "There is no work that we neglect at our company.The only thing we can do to help others is to provide them with services whenever possible.",
+        "We offer web development, graphics design, SEO, and social media management services.",
     },
     {
-      question: "Can you help my business grow?",
-      solution: "Our team always ready to help your business.",
+      question: "How do you approach web development projects?",
+      solution: "We work together with our clients to comprehend their demands and objectives before developing a unique solution that satisfies those expectations.",
     },
     {
       question:
-        "I need a complete some talent team for my business. Who will I be working with?",
+        "Can you help with pay-per-click (PPC) advertising?",
       solution:
-        "Our agency team always ready to help  your business and also fixing the problem. You can get our service easily when you have to need.",
-    },
-  ];
-  const opacity =
-  [{
-      solution:
-        "There is no work that we neglect at our company.The only thing we can do to help others is to provide them with services whenever possible.",
+        "Yes, we can help with PPC campaign creation and management on websites like Google Ads and Bing Ads.",
     },
     {
-      question: "Can you help my business grow?",
-      solution: "Our team always ready to help your business.",
-    },
-    {
-      question:
-        "I need a complete some talent team for my business. Who will I be working with?",
-      solution:
-        "Our agency team always ready to help  your business and also fixing the problem. You can get our service easily when you have to need.",
-    },
+      question:"Do you offer any guarantee for your SEO services?",
+      solution:"As the performance of a website on search engines depends on numerous factors outside of our control, we are unable to promise any certain outcomes. However, we do provide thorough performance data and put a lot of effort into making our clients' websites more visible.",
+    },{
+      question:"How do you measure the success of your social media campaigns?",
+      solution:"We monitor metrics like engagement, followers, and website traffic and use the information to modify and improve our approach.",
+    }
   ];
+
   
 
   return (
@@ -58,13 +47,11 @@ const HomeTwo = () => {
       <HomeTwoHeroSlider /> 
       <HomeTwoFeatures />
       <HomeTwoFaq arrayFaq={Faq} />
-      <HomeTwoAchievement opacity={opacity} />
+      <HomeTwoAchievement />
       <HomeTwoExpertArea />
       {/*<HomeTwoCounter/>
       <HomeTwoTestimonial />*/}
       {/* <HomeTwoCaseArea /> */}
-      <HomeTwoFeatures />
-      <HomeTwoExpertArea />
       {/*<HomeTwoCounter/>
       <HomeTwoTestimonial />*/}
       {/* <HomeTwoCaseArea /> */}

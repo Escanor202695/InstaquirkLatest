@@ -3,6 +3,10 @@ import React from "react";
 import SingleExpartContent from "../../../components/SingleExpartContent/SingleExpartContent";
 
 const HomeTwoExpertArea = () => {
+  const heading1="We will guide you with expertise";
+  const description1="We have lots of expert teams who can help you with their highest effort. Our team is always ready to provide immediate solutions if anyone has any concerns.";
+  const heading2="Assurance of Quality Services";
+  const description2="Our team of professionals and effective quality assurance method help us guarantee the quality of our services. You can rely on us for innovative solutions that satisfy clients and meet industry requirements.";
   return (
     <>
       <section
@@ -29,7 +33,7 @@ const HomeTwoExpertArea = () => {
                         aria-controls="philosophy"
                         aria-selected="true"
                       >
-                        Teaching System
+                        Experts
                       </a>
                     </li>
                     <li className="nav-item text-center">
@@ -42,7 +46,7 @@ const HomeTwoExpertArea = () => {
                         aria-controls="work"
                         aria-selected="false"
                       >
-                        Work Area
+                        Quality
                       </a>
                     </li>
                   </ul>
@@ -55,7 +59,7 @@ const HomeTwoExpertArea = () => {
                       role="tabpanel"
                       aria-labelledby="philosophy-tab"
                     >
-                      <SingleExpartContent image="1" position="right center" />
+                      <SingleExpartContent heading={heading1}  description={description1} image="1" position="right center" />
                     </div>
                     <div
                       className="tab-pane fade"
@@ -63,7 +67,7 @@ const HomeTwoExpertArea = () => {
                       role="tabpanel"
                       aria-labelledby="work-tab"
                     >
-                      <SingleExpartContent image="2" position="center" />
+                      <SingleExpartContent heading={heading2}  description={description2} image="2" position="center" />
                     </div>
                   </div>
                 </div>

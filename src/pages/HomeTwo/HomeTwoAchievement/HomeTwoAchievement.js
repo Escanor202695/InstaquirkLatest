@@ -2,7 +2,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const HomeTwoAchievement = ({ opacity }) => {
+const HomeTwoAchievement = () => {
   return (
     <>
       <section className="achievement__area pt-135 pb-40 ">
@@ -12,14 +12,11 @@ const HomeTwoAchievement = ({ opacity }) => {
               <div className="common-section">
                 <div className="achievement__content">
                   <div className="section__title section__title-3 mb-20">
-                    <span>Solution</span>
-                    <h2>We provide the best solutions for your business </h2>
+                   
+                    <h2>Achieving digital excellence. </h2>
                   </div>
                   <p>
-                    For your business, we offer the most effective solutions.
-                    Providing the most excellent service to our clients is
-                    always our top priority.In order to ensure that no client is
-                    at risk as a result of his negligence
+                  Our specialized SEO, graphics, and web building services may completely change your online profile. Utilize our team of committed professionals to stand out, increase traffic, and expand your business. Phone us right away!
                   </p>
                   <div
                     className="achievement__wrapper d-flex d-md-block d-lg-flex justify-content-between mb-35 wow fadeInUp"
@@ -30,7 +27,7 @@ const HomeTwoAchievement = ({ opacity }) => {
                         src="assets/img/icon/achievement/achievement-1.png"
                         alt="achievement"
                       />
-                      <h3>Acquisitions assist consulting</h3>
+                      <h3>Customized Approach</h3>
                     </div>
                     <div className="achievement__item mb-30">
                       <img
@@ -38,13 +35,13 @@ const HomeTwoAchievement = ({ opacity }) => {
                         src="assets/img/icon/achievement/achievement-2.png"
                         alt="achievement"
                       />
-                      <h3>Consultancy for private placements</h3>
+                      <h3>Precise Requirements Analysis </h3>
                     </div>
                   </div>
                   <Link
                     to="/about"
                     className="z-btn"
-                    style={{ opacity: `${opacity}` }}
+                
                   >
                     Explore More
                   </Link>

@@ -13,7 +13,7 @@ const ContactArea = () => {
     emailjs
       .sendForm(
         "service_c12ofag",
-        "template_issq6yr",
+        "template_j6bk8m8",
         form.current,
         "ujqGp-gYbQpWbuRmI"
       )
@@ -50,7 +50,7 @@ const ContactArea = () => {
                       <li>
                         <h4>Address</h4>
                         <p>
-                          24 Parking Plaza, Suite 506 <br /> Ardmore, SA 19004
+                          Dhaka, Bangladesh.
                         </p>
                       </li>
                       <li>
@@ -65,13 +65,13 @@ const ContactArea = () => {
                       <li>
                         <h4>Email Address</h4>
                         <p>
-                          <a href="mailto:Info@example.com">Info@example.com</a>
+                          <a href="mailto:Info@example.com">support@instaquirk.agency</a>
                         </p>
                       </li>
                     </ul>
                   </div>
                   <div className="contact__form">
-                    <form onSubmit={sendEmail} ref={form}>
+                    <form  ref={form}>
                       <input
                         type="text"
                         name="name"
@@ -89,7 +89,7 @@ const ContactArea = () => {
                         placeholder="Your Message"
                         name="message"
                       ></textarea>
-                      <button type="submit" className="z-btn">
+                      <button type="submit" onClick={sendEmail} className="z-btn">
                         Send Message
                       </button>
                     </form>
