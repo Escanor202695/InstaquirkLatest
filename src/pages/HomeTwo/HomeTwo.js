@@ -46,7 +46,7 @@ const HomeTwo = () => {
       <HomeTwoHeader />
       <HomeTwoHeroSlider /> 
       <HomeTwoFeatures />
-      <HomeTwoFaq arrayFaq={Faq} />
+      
       <HomeTwoAchievement />
       <HomeTwoExpertArea />
       {/*<HomeTwoCounter/>
@@ -56,6 +56,7 @@ const HomeTwo = () => {
       <HomeTwoTestimonial />*/}
       {/* <HomeTwoCaseArea /> */}
       {/*<HomeTwoBlogs/>*/}
+      <HomeTwoFaq arrayFaq={Faq} />
       <CommonCtaArea />
       <HomeTwoFooter />
     </>

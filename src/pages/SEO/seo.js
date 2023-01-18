@@ -26,7 +26,13 @@ function seo() {
       question:
         "How can we start a campaign for SEO on my website?",
       solution:
-        " We’ll explain our SEO services and give you more information based on your type of business, your website, and your goals. Remember, each SEO campaign is customized for your website goals and developed to meet your expectations.",
+        "Based on the nature of your company, the website you have, and your objectives, we'll explain our SEO services and provide you with further details. Always keep in mind that every SEO strategy is intended to fulfill your expectations and is tailored to the aims of your website.",
+    },
+    {
+      question:
+        "How do you do eCommerce SEO for product pages?",
+      solution:
+        "Product pages need to be optimized for an eCommerce website to be successful. Different approaches and eCommerce SEO strategies would be applicable depending on your industry. In other industries, part numbers may not be often searched, yet many manufacturers or part dealers increase organic search traffic by ranking for SKU numbers and part numbers. Prior to implementing a strategy, we will attempt to determine which keywords we must focus on for your product pages. In order to SEO hundreds or thousands of product pages at once, we also employ dynamic optimization techniques that can alter all product pages at once. The ultimate objective is to move customers as rapidly as possible from the product page to the checkout.",
     },
   ];
   const services = [

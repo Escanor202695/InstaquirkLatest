@@ -269,7 +269,9 @@ ul.drop-down-menu li:hover ul {
   background: none !important;
   margin-bottom: 6px;
 }
-
+.border12{
+  border: 1px solid red;
+}
 .footer__widget-title h4 {
   font-size: 24px;
   font-weight: 700 !important;
