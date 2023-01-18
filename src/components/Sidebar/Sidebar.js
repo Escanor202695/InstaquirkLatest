@@ -173,7 +173,7 @@ const Sidebar = ({ show, handleClose }) => {
                             <li>
                               <NavLink to="/social_media_management">
                                 {" "}
-                                Social Media Management & Marketing
+                                Social Media Management
                               </NavLink>
                             </li>
                             <li>
@@ -251,7 +251,7 @@ const Sidebar = ({ show, handleClose }) => {
                           in finding employment. Develop a business or assist in
                           its development. Additionally, we offer courses in Web
                           Development, Graphics Design, Full Stack SEO, and
-                          Social Media Management & Marketing
+                          Social Media Management
                         </p>
                         <a href="contact.html" className="z-btn z-btn-white">
                           contact us
