@@ -14,19 +14,25 @@ import Categories from "../../components/Categories/Categories";
 function seo() {
   const arrayFaq = [
     {
-      question: "Why should i choose your agency?",
+      question: "Why is SEO (search engine optimization) crucial?",
       solution:
-        "There is no work that we neglect at our company.The only thing we can do to help others is to provide them with services whenever possible.",
+        "It is no longer a possibility to not have your most critical keywords appear on the first page of Google. It is required. Consider it like this: In essence, a website is a multimedia, interactive advertisement for your company. You need to distribute that advertisement for it to be effective. You can make it simple for online users to locate your website and learn more about what your company has to offer by using SEO methods and tactics on it. It's great to have a fantastic website, but visitors must have no trouble finding it! Find out more about how SEO and search engines operate:",
     },
     {
-      question: "Can you help my business grow?",
-      solution: "Our team always ready to help your business.",
+      question: "Why do I need an eCommerce SEO expert?",
+      solution: "Your eCommerce website is much different than a typical website. You have a web of content from informational pages to products and categories. Optimizing each of these sections and connecting them together in a logical way (i.e., one that “pleases” search engine algorithms) is extremely important for the success of any eCommerce SEO campaign. With hundreds of eCommerce search marketing clients, we have the ability to look at what has worked for them and apply the same strategies to your website. Don’t fall for an SEO company that will be learning how to optimize your online store “on the fly” while on the job.",
     },
     {
       question:
-        "I need a complete some talent team for my business. Who will I be working with?",
+        "How can we start a campaign for SEO on my website?",
       solution:
-        "Our agency team always ready to help  your business and also fixing the problem. You can get our service easily when you have to need.",
+        "Based on the nature of your company, the website you have, and your objectives, we'll explain our SEO services and provide you with further details. Always keep in mind that every SEO strategy is intended to fulfill your expectations and is tailored to the aims of your website.",
+    },
+    {
+      question:
+        "How do you do eCommerce SEO for product pages?",
+      solution:
+        "Product pages need to be optimized for an eCommerce website to be successful. Different approaches and eCommerce SEO strategies would be applicable depending on your industry. In other industries, part numbers may not be often searched, yet many manufacturers or part dealers increase organic search traffic by ranking for SKU numbers and part numbers. Prior to implementing a strategy, we will attempt to determine which keywords we must focus on for your product pages. In order to SEO hundreds or thousands of product pages at once, we also employ dynamic optimization techniques that can alter all product pages at once. The ultimate objective is to move customers as rapidly as possible from the product page to the checkout.",
     },
   ];
   const services = [
@@ -136,10 +142,7 @@ function seo() {
         title: "Full SEO Package",
         src: "assets/img/seo page/2394.svg",
       },
-      {
-        title: "Voice Search SEO",
-        src: "2300.svg",
-      },
+   
      
     ];
   //banner

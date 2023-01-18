@@ -45,27 +45,31 @@ const HomeTwoFeatures = () => {
                 <div className="row">
                   <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                     <HomeTwoSingleFeature
+                      page="/web_development"
                       icon={<BsMicrosoft />}
                       title="Web Development"
-                      desc="We will provide you with our excellent services for Web Development"
+                      desc="Create and maintain professional websites, e-commerce and web applications."
                     />
                     <HomeTwoSingleFeature
+                      page="/graphic_details"
                       icon={<SiAntdesign />}
                       title="Graphic Designer"
-                      desc="We will provide you with our excellent services for Graphic Design"
+                      desc="Create visually appealing designs for marketing materials."
                     />
                   </div>
 
                   <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                     <HomeTwoSingleFeature
+                      page="/social_media_management"
                       icon={<GiDigitalTrace />}
-                      title="Social Media Management  "
-                      desc="We will provide you with our excellent services for Social Media Management  "
+                      title="Social Media Management & Marketing"
+                      desc="Manage social media accounts and increase online presence."
                     />
                     <HomeTwoSingleFeature
+                      page="/seo"
                       icon={<AiOutlineSearch />}
                       title="SEO"
-                      desc="We will provide you with our excellent services for full stack SEO"
+                      desc="Improve website visibility and ranking on search engines."
                     />
                   </div>
                 </div>

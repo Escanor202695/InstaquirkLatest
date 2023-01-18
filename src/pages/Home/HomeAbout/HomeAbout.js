@@ -33,33 +33,33 @@ const HomeAbout = ({ opacity }) => {
                     Our input helps make their solutions stand out from the
                     crowd.
                   </p>
-                  <div className="about__list">
+                  <div className="">
                     <ul>
                       <li>
-                        <span>
-                          <i className="border-5 ">
-                            {" "}
-                            <FaCheck />{" "}
+                        <span className="flex gap-2 hover:text-[#4536ff] group items-center ">
+                          <i className="text-[#4536FF]  bg-[#EDF2F7] text-[8.5px] group-hover:text-white group-hover:bg-[#4536ff] transition-colors  items-center flex justify-center  rounded-full h-[18px] w-[18px] ">
+                            
+                            <FaCheck />
                           </i>
-                          Creative ideas{" "}
+                          Creative ideas
                         </span>
                       </li>
                       <li>
-                        <span>
-                          <i className="border-5 ">
-                            {" "}
-                            <FaCheck />{" "}
+                        <span className="flex gap-2 hover:text-[#4536ff] group items-center">
+                          <i className="text-[#4536FF]  bg-[#EDF2F7] text-[8.5px] group-hover:text-white group-hover:bg-[#4536ff] transition-colors text-sm items-center flex justify-center  rounded-full h-[18px] w-[18px] ">
+                            
+                            <FaCheck />
                           </i>
                           Professional assistance
                         </span>
                       </li>
                       <li>
-                        <span>
-                          <i className="border-5 ">
-                            {" "}
-                            <FaCheck />{" "}
+                        <span className="flex gap-2 hover:text-[#4536ff] group items-center">
+                          <i className="text-[#4536FF]  bg-[#EDF2F7] text-[8.5px] group-hover:text-white group-hover:bg-[#4536ff] transition-colors text-sm items-center flex justify-center  rounded-full h-[18px] w-[18px] ">
+                            
+                            <FaCheck />
                           </i>
-                          Assisting professionals{" "}
+                          Assisting professionals
                         </span>
                       </li>
                     </ul>

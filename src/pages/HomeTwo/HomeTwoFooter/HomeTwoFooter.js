@@ -157,17 +157,17 @@ const HomeTwoFooter = () => {
                     <div className="footer__widget-title">
                       <h4>Contact Us</h4>
                     </div>
-                    <div className="footer__widget-content">
-                      <div className="footer__info">
-                        <ul>
-                        <li>
-                        <div className="icon theme-color pt-2 mr-1 ">
+                    <div className="">
+                      <div className="">
+                        <ul >
+                        <li className="flex gap-2 items-center">
+                        <div className=" ">
                         <i>
                         {" "}
                         <FaEnvelope />{" "}
                         </i>
                         </div>
-                        <div className="text theme-color pt-1">
+                        <div className="text font-semibold theme-color pt-1">
                         <span>
                         <a href="mailto:support@Instaquirk.com">
                         support@instaquirk.agency
@@ -175,28 +175,28 @@ const HomeTwoFooter = () => {
                         </span>
                         </div>
                         </li>
-                        <li>
+                        <li className="flex gap-2 items-center">
                         <div className="icon theme-color  pt-2 mr-1 ">
                         <i>
                         <FaPhoneAlt />{" "}
                         </i>
                         </div>
-                        <div className="text theme-color pt-1">
+                        <div className="text theme-color font-semibold pt-1">
                         <span>
-                        <a href="tel:(+642)-394-396-432">
-                        (+642) 394 396 432
+                        <a href="tel:(+642)-394-396-432" >
+                        +8801538425875
                         </a>
                         </span>
                         </div>
                         </li>
-                        <li>
+                        <li className="flex gap-2 items-center">
                           <div className="icon pt-2 mr-1">
                             <i>
                               {" "}
                               <BiMap />{" "}
                             </i>
                           </div>
-                          <div className="text  pt-1">
+                          <div className="text font-semibold pt-1">
                             <span>
                               Dhaka, Bangladesh.
                             </span>
