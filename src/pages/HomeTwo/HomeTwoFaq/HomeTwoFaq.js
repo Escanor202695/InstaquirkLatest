@@ -21,16 +21,16 @@ const HomeTwoFaq = ({ arrayFaq }) => {
   };
   return (
     <>
-      <section className="flex w-screen">
+      <section className="flex w-screen mb-[2rem]">
         <div
-          className="lg:w-[45%] border-2 bg-green-500"
+          className="lg:w-[40%] border-2 bg-green-500"
           style={{
             background: `url(assets/img/44.jpg)`,
             backgroundPosition: "top",
             backgroundSize: "cover",
           }}
         ></div>
-        <div className="w-full lg:flex-1 py-[5rem] px-[10%] lg:py-[10rem] lg:px-[5rem] bg-[#F8F7FC]">
+        <div className="w-full lg:flex-1 py-[5rem] px-[30px] lg:py-[10rem] lg:px-[5rem] bg-[#F8F7FC]">
           <div className="flex">
             <div className="">
               <div className="">
@@ -47,10 +47,10 @@ const HomeTwoFaq = ({ arrayFaq }) => {
                     return (
                       <div
                         className={`faq flex-col my-[1rem]  rounded-lg overflow-hidden
-                         bg-white border-2 hover:border-[#4536FF] transition-[max-height] ease-linear duration-[400ms]`}
+                         bg-white border-2 hover:border-[#4536FF] transition-[max-height] ease-linear duration-[200ms]`}
                         style={{
-                          maxHeight: display[i] === 1 ? "10rem" : "3.9rem", 
-                          boxshadow: '0px 0px 22px 20px rgba(0,0,0,1)'                   
+                          maxHeight: display[i] === 1 ? "10rem" : "3.9rem",
+                          boxshadow: "0px 0px 22px 20px rgba(0,0,0,1)",
                         }}
                         onClick={() => handleDisplay(i)}
                       >
@@ -61,7 +61,7 @@ const HomeTwoFaq = ({ arrayFaq }) => {
                               color: display[i] === 1 ? "#4536FF" : "black",
                             }}
                           >
-                            {q.question}
+                           {q.question}
                           </p>
                           <p
                             className={`mb-0 text-xl`}
@@ -74,11 +74,9 @@ const HomeTwoFaq = ({ arrayFaq }) => {
                         </div>
                         <div className="bg-white">
                           <p
-                            className={` leading-5 text-[12px] px-[2rem] font-semibold bg-white z-[1000px] text-[#767676]`}
+                            className={` leading-[20px] text-[13px] px-[2rem] bg-white z-[1000px] text-[#767676]`}
                             style={{
-                        
-             
-                              overflow:"hidden",
+                              overflow: "hidden",
                             }}
                           >
                             {q.solution}
@@ -95,8 +93,8 @@ const HomeTwoFaq = ({ arrayFaq }) => {
                         className={`faq flex-col my-[1rem]  rounded-lg overflow-hidden
                          bg-white border-2 hover:border-[#4536FF] transition-[max-height] ease-linear duration-[400ms]`}
                         style={{
-                          maxHeight: display[i] === 1 ? "20rem" : "6rem", 
-                          boxshadow: '0px 0px 22px 20px rgba(0,0,0,1)'                   
+                          maxHeight: display[i] === 1 ? "20rem" : "6rem",
+                          boxshadow: "0px 0px 22px 20px rgba(0,0,0,1)",
                         }}
                         onClick={() => handleDisplay(i)}
                       >
@@ -120,11 +118,11 @@ const HomeTwoFaq = ({ arrayFaq }) => {
                         </div>
                         <div className="bg-white">
                           <p
-                            className={` leading-5 text-[12px] px-[2rem] font-semibold bg-white z-[1000px] text-[#767676]`}
+                            className={`leading-5 text-[13px] px-[2rem] bg-white z-[1000px] text-[#767676]`}
                             style={{
-                              overflow:"hidden",
-                              transition:"all 400ms linear",
-                              opacity:display[i]===0?'0':'1',
+                              overflow: "hidden",
+                              transition: "all 200ms linear",
+                              opacity: display[i] === 0 ? "0" : "1",
                             }}
                           >
                             {q.solution}

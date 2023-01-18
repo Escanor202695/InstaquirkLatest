@@ -4,17 +4,16 @@ function HeroArea
 ({herotext,headline,src}) {
   return (
     <div className=" p-[30px] md:px-[40px] md:py-[30px]  md:flex  justify-between ">
-    <div className=" md:w-1/2 ">
-        <h5 className=" font-bold capitalize hidden lg:block lg:mt-[80px] md:text-[36px] md:mb-[1rem]">
+    <div className=" md:w-[48%] py-[2rem] md:py-0">
+        <h6 className="mb-[1rem] font-bold text-[30px] text-black capitalize lg:mt-[80px] md:text-[36px] md:mb-[1rem]">
         {" "}
         {headline}{" "}
-        </h5>
-        <h3 className=" capitalize  lg:hidden "> {headline} </h3>
-        <p className="text-sm sm:text-md   md:text-lg lg:text-xl  ">
+        </h6>
+        <p className="text-md   md:text-lg ">
         {herotext}
         </p>
     </div>
-    <div className="w-full md:w-1/2 flex justify-center ">
+    <div className="w-full md:w-1/2 flex justify-center mb-[2rem] md:p-[1rem] ">
         <img
         src={src}
         alt="vector"
