@@ -1,4 +1,3 @@
-
 import React from "react";
 import CommonPageHeader from "../../components/CommonPageHeader/CommonPageHeader";
 import HomeAbout from "../Home/HomeAbout/HomeAbout";
@@ -19,24 +18,28 @@ const About = () => {
     },
     {
       question: "How do you approach web development projects?",
-      solution: "We work together with our clients to comprehend their demands and objectives before developing a unique solution that satisfies those expectations.",
+      solution:
+        "We work together with our clients to comprehend their demands and objectives before developing a unique solution that satisfies those expectations.",
     },
     {
-      question:
-        "Can you help with pay-per-click (PPC) advertising?",
+      question: "Can you help with pay-per-click (PPC) advertising?",
       solution:
         "Yes, we can help with PPC campaign creation and management on websites like Google Ads and Bing Ads.",
     },
     {
-      question:"Do you offer any guarantee for your SEO services?",
-      solution:"As the performance of a website on search engines depends on numerous factors outside of our control, we are unable to promise any certain outcomes. However, we do provide thorough performance data and put a lot of effort into making our clients' websites more visible.",
-    },{
-      question:"How do you measure the success of your social media campaigns?",
-      solution:"We monitor metrics like engagement, followers, and website traffic and use the information to modify and improve our approach.",
-    }
+      question: "Do you offer any guarantee for your SEO services?",
+      solution:
+        "As the performance of a website on search engines depends on numerous factors outside of our control, we are unable to promise any certain outcomes. However, we do provide thorough performance data and put a lot of effort into making our clients' websites more visible.",
+    },
+    {
+      question:
+        "How do you measure the success of your social media campaigns?",
+      solution:
+        "We monitor metrics like engagement, followers, and website traffic and use the information to modify and improve our approach.",
+    },
   ];
   //  const aboutSubTitle = `As an unemployment service provider, we assist clients in finding employment. Develop a business or assist in its development. Additionally,
-  //   we offer courses in Web Development, Graphics Design, Full Stack SEO, and Social Media Management & Marketing `
+  //   we offer courses in Web Development, Graphics Design, Full Stack SEO, and Social Media Management   `
   const opacity = 0;
   return (
     <div className="about-all-section">
@@ -65,4 +68,3 @@ const About = () => {
 };
 
 export default About;
-

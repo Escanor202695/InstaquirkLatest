@@ -19,14 +19,13 @@ import Home from "./pages/Home/Home";
 import "./App.css";
 
 
-
 import HomeThree from "./pages/HomeThree/HomeThree";
 import HomeTwo from "./pages/HomeTwo/HomeTwo";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import PortfolioDetails from "./pages/PortfolioDetails/PortfolioDetails";
-import Services from "./pages/Services/Services";
+
 import ServicesDetails from "./pages/ServicesDetails/ServicesDetails";
-import Graphic_details from "./pages/Graphic_design/graphic_details";
+import GraphicDetails from "./pages/Graphic_design/graphic_details";
 import WebDevelopment from "./pages/WebDevelopment/WebDevelopment";
 
 import Seo from "./pages/SEO/seo";
@@ -36,10 +35,6 @@ import TeamDetails from "./pages/TeamDetails/TeamDetails";
 import Loader from "./components/Loader/Loader";
 import { useEffect, useState } from "react";
 import { ClipLoader } from "react-spinners";
-
-
-
-
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -81,7 +76,7 @@ function App() {
             <Route path="/blogs" element={<Blogs/>} />
             <Route path="/blogDetails" element={<BlogDetails/>} />*/}
           <Route path="/contact" element={<Contact />} />
-          <Route path="/graphic_details" element={<Graphic_details />} />
+          <Route path="/graphic_details" element={<GraphicDetails />} />
           <Route path="/seo" element={<Seo />} />
           <Route path="/social_media_management" element={<SMM />} />
 
