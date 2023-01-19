@@ -7,7 +7,7 @@ import { Pagination, Navigation } from "swiper";
 function Categories({category_header,cat_item}) {
   return (
     
-    <div className="px-[40px] py-[40px] md:mb-[2rem]">
+    <div className="px-[40px] py-[60px] md:mb-[2rem]">
             <h3 className="py-[20px] font-bold">
                 {category_header}
             </h3>
@@ -24,7 +24,7 @@ function Categories({category_header,cat_item}) {
                     const { src, title } = techItem;
                     return (
                     <SwiperSlide>
-                        <div className=" flex items-center  px-[20px] py-[14px] my-2  rounded-md shadow-md ">
+                        <div className=" flex items-center  px-[20px] py-[14px] my-2  rounded-md shadow-md bg-[#F7F6FB]">
                         <img
                             src={src}
                             alt="vector"

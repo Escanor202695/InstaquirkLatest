@@ -221,7 +221,7 @@ function webDevelopment(props) {
           </div>
         </div>
 
-        <div className="web-development-life-cycle">
+        <div className="web-development-life-cycle mb-[10rem]">
           <h1>Development Lifecycle</h1>
           <div className="development-image">
             <img
