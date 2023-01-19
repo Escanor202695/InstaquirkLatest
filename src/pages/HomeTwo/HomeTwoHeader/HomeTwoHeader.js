@@ -91,10 +91,10 @@ const HomeTwoHeader = () => {
                           </li>
                           {/*<li>
                             <NavLink to="/portfolio">Insights</NavLink>
-                          </li>*/}
-                          <li>
+                            <li>
                             <NavLink to="/contact">Contact Us</NavLink>
-                          </li>
+                            </li>
+                          </li>*/}
                         </ul>
                       </nav>
                     </div>

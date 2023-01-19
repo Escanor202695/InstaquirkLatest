@@ -8,7 +8,7 @@ import { FaEnvelope, FaPhoneAlt, FaSearch } from "react-icons/fa";
 const Sidebar = ({ show, handleClose }) => {
   return (
     <>
-      <div>
+      <div className="lg:hidden">
         <Offcanvas
           show={show}
           onHide={handleClose}
@@ -153,7 +153,7 @@ const Sidebar = ({ show, handleClose }) => {
                         </div>
 
                         <Collapsible
-                          trigger={<NavLink to="/services">Services</NavLink>}
+                          trigger={<NavLink >Services</NavLink>}
                           triggerTagName="div"
                           triggerOpenedClassName="icon_close"
                           triggerClassName="iconAdd"
@@ -182,52 +182,6 @@ const Sidebar = ({ show, handleClose }) => {
                           </ul>
                         </Collapsible>
 
-                        {/* <Collapsible
-                          trigger={<NavLink to="/portfolio">Insights</NavLink>}
-                          triggerTagName="div"
-                          triggerOpenedClassName="icon_close"
-                          triggerClassName="iconAdd"
-                          open={false}
-                        >
-                          <ul className="sidebar_sub_menu submenu text-white text-capitalize">
-                            <li>
-                              <NavLink to="/portfolio">portfolio</NavLink>
-                            </li>
-                            <li>
-                              <NavLink to="/portfolioDetails">
-                                portfolio Details
-                              </NavLink>
-                            </li>
-                            <li>
-                              <NavLink to="/team">team</NavLink>
-                            </li>
-                            <li>
-                              <NavLink to="/teamDetails">team Details</NavLink>
-                            </li>
-                          </ul>
-                        </Collapsible> */}
-
-                        {/* <Collapsible
-                          trigger={<NavLink to="/blogs">Blog</NavLink>}
-                          triggerTagName="div"
-                          triggerOpenedClassName="icon_close"
-                          triggerClassName="iconAdd"
-                          open={false}
-                        >
-                          <ul className="sidebar_sub_menu submenu text-white">
-                            <li>
-                              <NavLink to="/blogs">Blog</NavLink>
-                            </li>
-                            <li>
-                              <NavLink to="/blogDetails">Blog Details</NavLink>
-                            </li>
-                          </ul>
-                        </Collapsible> */}
-
-                        <div className="about iconAdd">
-                          <NavLink to="/blogs">Blog</NavLink>
-                        </div>
-
                         <div className="about iconAdd border-0">
                           <NavLink to="/contact">Contact Us </NavLink>
                         </div>
@@ -247,11 +201,8 @@ const Sidebar = ({ show, handleClose }) => {
                           </a>
                         </div>
                         <p>
-                          As an unemployment service provider, we assist clients
-                          in finding employment. Develop a business or assist in
-                          its development. Additionally, we offer courses in Web
-                          Development, Graphics Design, Full Stack SEO, and
-                          Social Media Management
+                        Our specialized SEO, graphics, and web building services may completely change your online profile. Utilize our team of committed professionals to stand out, increase traffic, and expand your business. Phone us right away!
+                         
                         </p>
                         <a href="contact.html" className="z-btn z-btn-white">
                           contact us
@@ -278,8 +229,7 @@ const Sidebar = ({ show, handleClose }) => {
                               </div>
                               <div className="text">
                                 <span>
-                                  Ave 14th Street, Mirpur 210, San Franciso, USA
-                                  3296.
+                                  Dhaka Bangladesh.
                                 </span>
                               </div>
                             </li>

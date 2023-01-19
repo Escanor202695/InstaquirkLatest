@@ -4,7 +4,7 @@ import {
   FaLinkedinIn,
   FaTwitter,
   FaEnvelope,
-  FaPhoneAlt,
+  FaWhatsapp,
 } from "react-icons/fa";
 import { BiMap } from "react-icons/bi";
 import {} from "react-icons/fa";
@@ -35,7 +35,7 @@ const HomeTwoFooter = () => {
                       </div>
                     </div>
                     <div className="footer__widget-content">
-                      <p className="mb-30 ">
+                      <p className="mb-30 text-sm">
                         Copyright © 2022 All Rights Reserved by Instaquirk
                       </p>
                       <div className="footer__social theme-social mb-30">
@@ -83,20 +83,15 @@ const HomeTwoFooter = () => {
                     <div className="footer__widget-content">
                       <div className="footer__links">
                         <ul>
+                        <li>
+                          <a href="/homeTwo">Home</a>
+                        </li>
                           <li>
                             <NavLink to="/about">About</NavLink>
                           </li>
+                         
                           <li>
-                            <a href="#">Testimonials</a>
-                          </li>
-                          <li>
-                            <a href="#">Consulting</a>
-                          </li>
-                          <li>
-                            <a href="#">Partners</a>
-                          </li>
-                          <li>
-                            <a href="#">Contact Us</a>
+                            <a href="/contact">Contact Us</a>
                           </li>
                         </ul>
                       </div>
@@ -160,25 +155,25 @@ const HomeTwoFooter = () => {
                     <div className="">
                       <div className="">
                         <ul >
-                        <li className="flex gap-2 items-center">
+                        <li className="flex gap-2 py-2 items-center">
                         <div className=" ">
-                        <i>
+                        <i className="text-[#4536ff] text-xl ">
                         {" "}
                         <FaEnvelope />{" "}
                         </i>
                         </div>
-                        <div className="text font-semibold theme-color pt-1">
+                        <div className="text  font-semibold theme-color ">
                         <span>
-                        <a href="mailto:support@Instaquirk.com">
+                        <a href="mailto:support@Instaquirk.com" className="pl-2 ">
                         support@instaquirk.agency
                         </a>
                         </span>
                         </div>
                         </li>
-                        <li className="flex gap-2 items-center">
+                        <li className="flex gap-2 py-2 items-center">
                         <div className="icon theme-color  pt-2 mr-1 ">
-                        <i>
-                        <FaPhoneAlt />{" "}
+                        <i className="text-[#4536ff] text-2xl"> 
+                        <FaWhatsapp />{" "}
                         </i>
                         </div>
                         <div className="text theme-color font-semibold pt-1">
@@ -189,9 +184,9 @@ const HomeTwoFooter = () => {
                         </span>
                         </div>
                         </li>
-                        <li className="flex gap-2 items-center">
+                        <li className="flex gap-2 py-2 items-center">
                           <div className="icon pt-2 mr-1">
-                            <i>
+                            <i className="text-[#4536ff] text-2xl">
                               {" "}
                               <BiMap />{" "}
                             </i>

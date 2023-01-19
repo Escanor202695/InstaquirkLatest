@@ -47,9 +47,9 @@ const HomeTwoFaq = ({ arrayFaq }) => {
                     return (
                       <div
                         className={`faq flex-col my-[1rem]  rounded-lg overflow-hidden
-                         bg-white border-2 hover:border-[#4536FF] transition-[max-height] ease-linear duration-[400ms]`}
+                         bg-white border-2 hover:border-[#4536FF] transition-[max-height]  duration-[400ms]`}
                         style={{
-                          maxHeight: display[i] === 1 ? "10rem" : "3.9rem", 
+                          maxHeight: display[i] === 1 ? "15rem" : "3.9rem", 
                           boxshadow: '0px 0px 22px 20px rgba(0,0,0,1)'                   
                         }}
                         onClick={() => handleDisplay(i)}
@@ -93,9 +93,9 @@ const HomeTwoFaq = ({ arrayFaq }) => {
                     return (
                       <div
                         className={`faq flex-col my-[1rem]  rounded-lg overflow-hidden
-                         bg-white border-2 hover:border-[#4536FF] transition-[max-height] ease-linear duration-[400ms]`}
+                         bg-white border-2 hover:border-[#4536FF] transition-[max-height]  duration-[400ms]`}
                         style={{
-                          maxHeight: display[i] === 1 ? "20rem" : "6rem", 
+                          maxHeight: display[i] === 1 ? "15rem" : "6rem", 
                           boxshadow: '0px 0px 22px 20px rgba(0,0,0,1)'                   
                         }}
                         onClick={() => handleDisplay(i)}
@@ -123,7 +123,7 @@ const HomeTwoFaq = ({ arrayFaq }) => {
                             className={` leading-5 text-[12px] px-[2rem] font-semibold bg-white z-[1000px] text-[#767676]`}
                             style={{
                               overflow:"hidden",
-                              transition:"all 400ms linear",
+                              transition:"all 400ms cubic-bezier(.4,.2,1)",
                               opacity:display[i]===0?'0':'1',
                             }}
                           >

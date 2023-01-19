@@ -4,7 +4,7 @@ import HomeTwoFooter from "../HomeTwo/HomeTwoFooter/HomeTwoFooter";
 import CommonPageHeader from "../../components/CommonPageHeader/CommonPageHeader";
 import CommonCtaArea from "../../components/CommonCtaArea/CommonCtaArea";
 import "./webdevelopment.css";
-import Faq from "../../components/FAQ/Faq";
+import Faq from "../HomeTwo/HomeTwoFaq/HomeTwoFaq";
 import Carousel from "react-material-ui-carousel";
 import Hero from "../../components/HeroArea/Hero";
 import Banner from "../../components/Banner/Banner";

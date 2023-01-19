@@ -18,12 +18,11 @@ function seo() {
         "We perform a detailed research of your company, your target market, and your rivals to develop a unique social media plan that supports your goals and objectives.",
     },
     {
-      question: "Which social media sites are the most effective for my company, and how do you decide?",
+      question: "how do you decide which sites are the most effective?",
       solution: "To decide which platforms will be most useful for connecting with and engaging with your target audience and competitors, we conduct research and analysis on both groups.",
     },
     {
-      question:
-        "How do you handle customer engagement and respond to messages on social media?",
+      question: "How do you handle customer and respond their messages?",
       solution:
         "We actively monitor and respond to customer inquiries and messages on your social media accounts in a timely and professional manner.",
     },
@@ -35,7 +34,7 @@ function seo() {
     },
     {
       question:
-        "How do you measure the success of your social media campaigns?",
+        "How do you measure the success of social media campaigns?",
       solution:
         "To assess the effectiveness of our social media efforts and modify our strategy as necessary, we monitor indicators like engagement, followers, website traffic, and sales.",
     },

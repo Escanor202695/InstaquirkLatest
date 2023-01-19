@@ -47,7 +47,7 @@
         },
         {
         question:
-            "What do you need to get started?'max-h-[8rem''max-h-[8rem''max-h-[8rem''max-h-[8rem''max-h-[8rem'",
+            "What do you need to get started?",
         solution:
             "You will have to provide us with : Project brief which describes the Main Idea and specific details, pictures,logo, content, WordPress login details. If you missing some of the requirements just contact us and we will help you with everything. If you need help in any of them, Contact us.",
         },

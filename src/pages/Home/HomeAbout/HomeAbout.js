@@ -23,9 +23,9 @@ const HomeAbout = ({ opacity }) => {
               <div className="common-section">
                 <div className="about__content">
                   <div className="section__title mb-25">
-                    <span>Who we are</span>
+                   
                     <h2 className="about-heading">
-                      We Conceive And Translate Our Clients Dreams Into Reality
+                      Dreams Get Into Reality
                     </h2>
                   </div>
                   <p>
@@ -36,7 +36,7 @@ const HomeAbout = ({ opacity }) => {
                   <div className="">
                     <ul>
                       <li>
-                        <span className="flex gap-2 hover:text-[#4536ff] group items-center ">
+                        <span className="flex gap-2 hover:text-[#4536ff] group items-center my-2">
                           <i className="text-[#4536FF]  bg-[#EDF2F7] text-[8.5px] group-hover:text-white group-hover:bg-[#4536ff] transition-colors  items-center flex justify-center  rounded-full h-[18px] w-[18px] ">
                             
                             <FaCheck />
@@ -45,7 +45,7 @@ const HomeAbout = ({ opacity }) => {
                         </span>
                       </li>
                       <li>
-                        <span className="flex gap-2 hover:text-[#4536ff] group items-center">
+                        <span className="flex gap-2 hover:text-[#4536ff] group items-center my-2">
                           <i className="text-[#4536FF]  bg-[#EDF2F7] text-[8.5px] group-hover:text-white group-hover:bg-[#4536ff] transition-colors text-sm items-center flex justify-center  rounded-full h-[18px] w-[18px] ">
                             
                             <FaCheck />
@@ -54,7 +54,7 @@ const HomeAbout = ({ opacity }) => {
                         </span>
                       </li>
                       <li>
-                        <span className="flex gap-2 hover:text-[#4536ff] group items-center">
+                        <span className="flex gap-2 hover:text-[#4536ff] group items-center my-2">
                           <i className="text-[#4536FF]  bg-[#EDF2F7] text-[8.5px] group-hover:text-white group-hover:bg-[#4536ff] transition-colors text-sm items-center flex justify-center  rounded-full h-[18px] w-[18px] ">
                             
                             <FaCheck />
