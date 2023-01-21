@@ -21,16 +21,16 @@ const HomeTwoFaq = ({ arrayFaq }) => {
   };
   return (
     <>
-      <section className="flex w-screen md:mb-[5rem]">
+      <section className="flex w-screen">
         <div
-          className="lg:w-[40%] border-2 bg-green-500"
+          className="lg:w-[45%] border-2 bg-green-500"
           style={{
             background: `url(assets/img/44.jpg)`,
             backgroundPosition: "top",
             backgroundSize: "cover",
           }}
         ></div>
-        <div className="w-full lg:flex-1 py-[5rem] px-[30px] lg:py-[10rem] lg:px-[5rem] bg-[#F8F7FC]">
+        <div className="w-full lg:flex-1 py-[5rem] px-[10%] lg:py-[10rem] lg:px-[5rem] bg-[#F8F7FC]">
           <div className="flex">
             <div className="">
               <div className="">
@@ -47,54 +47,10 @@ const HomeTwoFaq = ({ arrayFaq }) => {
                     return (
                       <div
                         className={`faq flex-col my-[1rem]  rounded-lg overflow-hidden
-                         bg-white border-2 hover:border-[#4536FF] transition-[max-height] ease-linear duration-[200ms]`}
+                         bg-white border-2 hover:border-[#4536FF] transition-[max-height]  duration-[400ms]`}
                         style={{
-                          maxHeight: display[i] === 1 ? "10rem" : "3.9rem",
-                          boxshadow: "0px 0px 22px 20px rgba(0,0,0,1)",
-                        }}
-                        onClick={() => handleDisplay(i)}
-                      >
-                        <div className="w-full bg-white h-auto  p-[1rem] flex justify-between align-center gap-[1rem] cursor-pointer">
-                          <p
-                            className={`leading-7 text-[15px] mb-0 font-bold `}
-                            style={{
-                              color: display[i] === 1 ? "#4536FF" : "black",
-                            }}
-                          >
-                           {q.question}
-                          </p>
-                          <p
-                            className={`mb-0 text-xl`}
-                            style={{
-                              color: display[i] === 1 ? "#4536FF" : "black",
-                            }}
-                          >
-                            {display[i] === 0 ? "+" : "-"}
-                          </p>
-                        </div>
-                        <div className="bg-white">
-                          <p
-                            className={` leading-[20px] text-[13px] px-[2rem] bg-white z-[1000px] text-[#767676]`}
-                            style={{
-                              overflow: "hidden",
-                            }}
-                          >
-                            {q.solution}
-                          </p>
-                        </div>
-                      </div>
-                    );
-                  })}
-                </div>
-                <div className="lg:hidden">
-                  {arrayFaq.map((q, i) => {
-                    return (
-                      <div
-                        className={`faq flex-col my-[1rem]  rounded-lg overflow-hidden
-                         bg-white border-2 hover:border-[#4536FF] transition-[max-height] ease-linear duration-[400ms]`}
-                        style={{
-                          maxHeight: display[i] === 1 ? "20rem" : "6rem",
-                          boxshadow: "0px 0px 22px 20px rgba(0,0,0,1)",
+                          maxHeight: display[i] === 1 ? "15rem" : "3.9rem", 
+                          boxshadow: '0px 0px 22px 20px rgba(0,0,0,1)'                   
                         }}
                         onClick={() => handleDisplay(i)}
                       >
@@ -118,11 +74,57 @@ const HomeTwoFaq = ({ arrayFaq }) => {
                         </div>
                         <div className="bg-white">
                           <p
-                            className={`leading-5 text-[13px] px-[2rem] bg-white z-[1000px] text-[#767676]`}
+                            className={` leading-5 text-[12px] px-[2rem] font-semibold bg-white z-[1000px] text-[#767676]`}
                             style={{
-                              overflow: "hidden",
-                              transition: "all 200ms linear",
-                              opacity: display[i] === 0 ? "0" : "1",
+                        
+             
+                              overflow:"hidden",
+                            }}
+                          >
+                            {q.solution}
+                          </p>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+                <div className="lg:hidden">
+                  {arrayFaq.map((q, i) => {
+                    return (
+                      <div
+                        className={`faq flex-col my-[1rem]  rounded-lg overflow-hidden
+                         bg-white border-2 hover:border-[#4536FF] transition-[max-height]  duration-[400ms]`}
+                        style={{
+                          maxHeight: display[i] === 1 ? "15rem" : "6rem", 
+                          boxshadow: '0px 0px 22px 20px rgba(0,0,0,1)'                   
+                        }}
+                        onClick={() => handleDisplay(i)}
+                      >
+                        <div className="w-full bg-white h-auto  p-[1rem] flex justify-between align-center gap-[1rem] cursor-pointer">
+                          <p
+                            className={`leading-7 text-[15px] mb-0 font-bold `}
+                            style={{
+                              color: display[i] === 1 ? "#4536FF" : "black",
+                            }}
+                          >
+                            {q.question}
+                          </p>
+                          <p
+                            className={`mb-0 text-xl`}
+                            style={{
+                              color: display[i] === 1 ? "#4536FF" : "black",
+                            }}
+                          >
+                            {display[i] === 0 ? "+" : "-"}
+                          </p>
+                        </div>
+                        <div className="bg-white">
+                          <p
+                            className={` leading-5 text-[12px] px-[2rem] font-semibold bg-white z-[1000px] text-[#767676]`}
+                            style={{
+                              overflow:"hidden",
+                              transition:"all 400ms cubic-bezier(.4,.2,1)",
+                              opacity:display[i]===0?'0':'1',
                             }}
                           >
                             {q.solution}

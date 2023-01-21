@@ -18,14 +18,11 @@ function seo() {
         "We perform a detailed research of your company, your target market, and your rivals to develop a unique social media plan that supports your goals and objectives.",
     },
     {
-      question:
-        "Which social media sites are the most effective for my company, and how do you decide?",
-      solution:
-        "To decide which platforms will be most useful for connecting with and engaging with your target audience and competitors, we conduct research and analysis on both groups.",
+      question: "how do you decide which sites are the most effective?",
+      solution: "To decide which platforms will be most useful for connecting with and engaging with your target audience and competitors, we conduct research and analysis on both groups.",
     },
     {
-      question:
-        "How do you handle customer engagement and respond to messages on social media?",
+      question: "How do you handle customer and respond their messages?",
       solution:
         "We actively monitor and respond to customer inquiries and messages on your social media accounts in a timely and professional manner.",
     },
@@ -36,7 +33,7 @@ function seo() {
     },
     {
       question:
-        "How do you measure the success of your social media campaigns?",
+        "How do you measure the success of social media campaigns?",
       solution:
         "To assess the effectiveness of our social media efforts and modify our strategy as necessary, we monitor indicators like engagement, followers, website traffic, and sales.",
     },
@@ -160,10 +157,10 @@ function seo() {
   ];
   //banner
   const src_banner =
-    "/assets/img/marketing/Digital Marketing SEEK Cover Image 1.png";
+    "/assets/img/updated image/social_media.png";
   const src_mobile =
-    "/assets/img/marketing/Digital Marketing SEEK Cover Image 1.png";
-  const text_banner = "";
+    "/assets/img/updated image/Digital Marketing SEEK Cover Image (1800 × 500px) (500 × 500px) (500 × 312px).png";
+  const text_banner ="Engage more with your potential customer.";
   //hero
   const src = "/assets/img/seo page/seo1.jpg";
   const headline = "Stand out in the digital world";
@@ -183,6 +180,7 @@ function seo() {
           src_banner={src_banner}
           src_mobile={src_mobile}
           text_banner={text_banner}
+          page="social"
         />
         <Categories category_header={category_header} cat_item={service} />
       </div>

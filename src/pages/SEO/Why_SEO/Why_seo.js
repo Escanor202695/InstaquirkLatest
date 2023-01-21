@@ -34,60 +34,60 @@ function Why_seo() {
               What is the significance <br /> of SEO?
             </h3>
 
-            <div className="about__list">
+            <div className="">
               <ul>
                 <li>
-                  <span>
-                    <i className="border-5">
-                      {" "}
-                      <FaCheck />{" "}
+                  <span className="flex gap-2 hover:text-[#4536ff] group items-center my-3">
+                    <i className="text-[#4536FF]  bg-[#EDF2F7] text-[8.5px] group-hover:text-white group-hover:bg-[#4536ff] transition-colors  items-center flex justify-center  rounded-full h-[18px] w-[18px] ">
+                      
+                      <FaCheck />
                     </i>
                     Improve the user experience and usability of a website.
                   </span>
                 </li>
                 <li>
-                  <span>
-                    <i className="border-5">
-                      {" "}
-                      <FaCheck />{" "}
+                  <span className="flex gap-2 hover:text-[#4536ff] group items-center my-3">
+                    <i className="text-[#4536FF]  bg-[#EDF2F7] text-[8.5px] group-hover:text-white group-hover:bg-[#4536ff] transition-colors  items-center flex justify-center  rounded-full h-[18px] w-[18px] ">
+                      
+                      <FaCheck />
                     </i>
                     Makes Your Website Easier To Navigate
                   </span>
                 </li>
                 <li>
-                  <span>
-                    <i className="border-5">
-                      {" "}
-                      <FaCheck />{" "}
+                  <span className="flex gap-2 hover:text-[#4536ff] group items-center my-3">
+                    <i className="text-[#4536FF]  bg-[#EDF2F7] text-[8.5px] group-hover:text-white group-hover:bg-[#4536ff] transition-colors  items-center flex justify-center  rounded-full h-[18px] w-[18px] ">
+                      
+                      <FaCheck />
                     </i>
                     Brings More People To Your Website
                   </span>
                 </li>
                 <li>
-                  <span>
-                    <i className="border-5">
-                      {" "}
-                      <FaCheck />{" "}
+                  <span className="flex gap-2 hover:text-[#4536ff] group items-center my-3">
+                    <i className="text-[#4536FF]  bg-[#EDF2F7] text-[8.5px] group-hover:text-white group-hover:bg-[#4536ff] transition-colors  items-center flex justify-center  rounded-full h-[18px] w-[18px] ">
+                      
+                      <FaCheck />
                     </i>
                     You Get More Credibility & Trust.
                   </span>
                 </li>
                 <li>
-                  <span>
-                    <i className="border-5">
-                      {" "}
-                      <FaCheck />{" "}
+                  <span className="flex gap-2 hover:text-[#4536ff] group items-center my-3">
+                    <i className="text-[#4536FF]  bg-[#EDF2F7] text-[8.5px] group-hover:text-white group-hover:bg-[#4536ff] transition-colors  items-center flex justify-center  rounded-full h-[18px] w-[18px] ">
+                      
+                      <FaCheck />
                     </i>
                     You Can Expand Your Business
                   </span>
                 </li>
                 <li>
-                  <span>
-                    <i className="border-5">
-                      {" "}
-                      <FaCheck />{" "}
+                  <span className="flex gap-2 hover:text-[#4536ff] group items-center my-2">
+                    <i className="text-[#4536FF]  bg-[#EDF2F7] text-[8.5px] group-hover:text-white group-hover:bg-[#4536ff] transition-colors  items-center flex justify-center  rounded-full h-[18px] w-[18px] ">
+                      
+                      <FaCheck />
                     </i>
-                    You Get A Greater Internet Presence{" "}
+                    You Get A Greater Internet Presence
                   </span>
                 </li>
               </ul>

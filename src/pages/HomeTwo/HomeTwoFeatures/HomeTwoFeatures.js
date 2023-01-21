@@ -53,7 +53,7 @@ const HomeTwoFeatures = () => {
                     <HomeTwoSingleFeature
                       page="/graphic_details"
                       icon={<SiAntdesign />}
-                      title="Graphic Designer"
+                      title="Graphic Design"
                       desc="Create visually appealing designs for marketing materials."
                     />
                   </div>
