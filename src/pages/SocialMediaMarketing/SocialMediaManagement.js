@@ -154,10 +154,10 @@ const array = [
   ];
   //banner
   const src_banner =
-    "/assets/img/marketing/Digital Marketing SEEK Cover Image 1.png";
+    "/assets/img/updated image/social_media.png";
   const src_mobile =
-    "/assets/img/marketing/Digital Marketing SEEK Cover Image 1.png";
-  const text_banner ="";
+    "/assets/img/updated image/Digital Marketing SEEK Cover Image (1800 × 500px) (500 × 500px) (500 × 312px).png";
+  const text_banner ="Engage more with your potential customer.";
   //hero
   const src = "/assets/img/seo page/seo1.jpg";
   const headline = "Stand out in the digital world";
@@ -178,6 +178,7 @@ const array = [
           src_banner={src_banner}
           src_mobile={src_mobile}
           text_banner={text_banner}
+          page="social"
         />
         <Categories category_header={category_header} cat_item={service} />
       </div>

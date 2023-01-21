@@ -146,9 +146,9 @@ function seo() {
      
     ];
   //banner
-  const src_banner = "/assets/img/seo page/Blue Minimalist SEO Specialist LinkedIn Banner (3).png";
-  const src_mobile = "/assets/img/seo page/seo_mobile.png";
-  const text_banner = "Expertly crafted SEO strategies for your business";
+  const src_banner = "/assets/img/updated image/Blue Minimalist SEO Specialist LinkedIn Banner (4).png";
+  const src_mobile = "/assets/img/updated image/Blue Minimalist SEO Specialist LinkedIn Banner (500 × 312px) (1).png";
+  const text_banner = "";
   //hero
   const src = "/assets/img/seo page/seo1.jpg";
   const headline = "Elevate your online Presence";
