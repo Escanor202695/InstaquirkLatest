@@ -18,8 +18,10 @@ function seo() {
         "We perform a detailed research of your company, your target market, and your rivals to develop a unique social media plan that supports your goals and objectives.",
     },
     {
-      question: "Which social media sites are the most effective for my company, and how do you decide?",
-      solution: "To decide which platforms will be most useful for connecting with and engaging with your target audience and competitors, we conduct research and analysis on both groups.",
+      question:
+        "Which social media sites are the most effective for my company, and how do you decide?",
+      solution:
+        "To decide which platforms will be most useful for connecting with and engaging with your target audience and competitors, we conduct research and analysis on both groups.",
     },
     {
       question:
@@ -28,8 +30,7 @@ function seo() {
         "We actively monitor and respond to customer inquiries and messages on your social media accounts in a timely and professional manner.",
     },
     {
-      question:
-        "How frequently do you post on social media?",
+      question: "How frequently do you post on social media?",
       solution:
         "We develop a post schedule and content calendar depending on your company and target demographic, often releasing a mix of daily, weekly, and monthly updates.",
     },
@@ -40,35 +41,39 @@ function seo() {
         "To assess the effectiveness of our social media efforts and modify our strategy as necessary, we monitor indicators like engagement, followers, website traffic, and sales.",
     },
   ];
-//why
-const array = [
-  {
-    src:"/assets/img/seo page/5.png",
-    heading:"Increased online presence",
-    description:" Social media management helps to increase a business's online presence by regularly posting content and engaging with followers on various platforms. This can help to attract new customers and boost brand visibility."
-  },
-  {
-    src:"/assets/img/seo page/4.png",
-    heading:"Improved customer engagement",
-    description:"Social media allows businesses to directly interact with their customers, which can lead to increased customer satisfaction and loyalty. By actively managing social media accounts, businesses can respond to customer inquiries, complaints, and feedback in a timely manner.",
-  },
-  {
-    src:"/assets/img/seo page/3.png",
-    heading:"Enhanced brand reputation",
-    description:" Proper social media management can help to maintain a positive brand reputation by carefully monitoring and addressing any negative comments or reviews. It can also allow businesses to proactively share positive content and reviews, helping to build a strong and positive brand image.",
-  },
-  {
-    src:"/assets/img/seo page/2.png",
-    heading:"Greater reach and exposure",
-    description:" Social media platforms have a large user base, making them an effective way to reach a wide audience. By regularly posting and engaging with followers, businesses can increase their reach and expose their brand to new potential customers.",
-  },
-  {
-    src:"/assets/img/seo page/4.png",
-    heading:"Generating leads and sales",
-    description:"Social media management may assist organizations in generating leads and boosting revenue through the creation of interesting content and the execution of focused ad campaigns.",
-  },
- 
-];
+  //why
+  const array = [
+    {
+      src: "/assets/img/seo page/5.png",
+      heading: "Increased online presence",
+      description:
+        " Social media management helps to increase a business's online presence by regularly posting content and engaging with followers on various platforms. This can help to attract new customers and boost brand visibility.",
+    },
+    {
+      src: "/assets/img/seo page/4.png",
+      heading: "Improved customer engagement",
+      description:
+        "Social media allows businesses to directly interact with their customers, which can lead to increased customer satisfaction and loyalty. By actively managing social media accounts, businesses can respond to customer inquiries, complaints, and feedback in a timely manner.",
+    },
+    {
+      src: "/assets/img/seo page/3.png",
+      heading: "Enhanced brand reputation",
+      description:
+        " Proper social media management can help to maintain a positive brand reputation by carefully monitoring and addressing any negative comments or reviews. It can also allow businesses to proactively share positive content and reviews, helping to build a strong and positive brand image.",
+    },
+    {
+      src: "/assets/img/seo page/2.png",
+      heading: "Greater reach and exposure",
+      description:
+        " Social media platforms have a large user base, making them an effective way to reach a wide audience. By regularly posting and engaging with followers, businesses can increase their reach and expose their brand to new potential customers.",
+    },
+    {
+      src: "/assets/img/seo page/4.png",
+      heading: "Generating leads and sales",
+      description:
+        "Social media management may assist organizations in generating leads and boosting revenue through the creation of interesting content and the execution of focused ad campaigns.",
+    },
+  ];
   const services = [
     {
       title: "Websites",
@@ -122,7 +127,7 @@ const array = [
     },
   ];
   //category
-  const category_header = "TOP SOCIAL MEDIA PLATFORMS ";
+  const category_header = "Social Media Services";
   const service = [
     {
       title: "Social Media Management",
@@ -158,13 +163,12 @@ const array = [
     "/assets/img/marketing/Digital Marketing SEEK Cover Image 1.png";
   const src_mobile =
     "/assets/img/marketing/Digital Marketing SEEK Cover Image 1.png";
-  const text_banner ="";
+  const text_banner = "";
   //hero
   const src = "/assets/img/seo page/seo1.jpg";
   const headline = "Stand out in the digital world";
   const herotext =
     "We are a digital agency with a focus on social media management, and with the help of our team, businesses can enhance their online presence, connect with their customers, and get the best results through targeted strategies, content creation, community management, influencer partnerships, and ad campaign management.";
-  const service_headline = "Our Graphics & Design Services";
   return (
     <div>
       <HomeTwoHeader />
@@ -182,7 +186,7 @@ const array = [
         />
         <Categories category_header={category_header} cat_item={service} />
       </div>
-      <Why array={array}/>
+      <Why array={array} />
       <MarketingSolution />
       <Faq arrayFaq={arrayFaq} />
       <CommonCtaArea />

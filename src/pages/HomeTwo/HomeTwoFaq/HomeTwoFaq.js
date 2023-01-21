@@ -21,7 +21,7 @@ const HomeTwoFaq = ({ arrayFaq }) => {
   };
   return (
     <>
-      <section className="flex w-screen mb-[2rem]">
+      <section className="flex w-screen md:mb-[5rem]">
         <div
           className="lg:w-[40%] border-2 bg-green-500"
           style={{

@@ -1,1 +1,27 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46 46"><path d="M23.86,40.22H2.61a1.17,1.17,0,0,1-1.18-1.17V2.8A1.18,1.18,0,0,1,2.61,1.62H34.53A1.17,1.17,0,0,1,35.7,2.8V17.28" fill="none" stroke="#404145" stroke-miterlimit="10" stroke-width="1.5"/><circle cx="17.75" cy="8.79" r="2.59" fill="none" stroke="#404145" stroke-miterlimit="10" stroke-width="1.5"/><polyline points="9.19 21.78 15.28 15.69 17.9 18.31 23.44 12.77 27.94 17.28" fill="none" stroke="#404145" stroke-miterlimit="10" stroke-width="1.5"/><path d="M43.78,44.38H27.62a.78.78,0,0,1-.78-.83l.82-14.44a.8.8,0,0,1,.79-.74H43a.79.79,0,0,1,.78.74l.83,14.44A.79.79,0,0,1,43.78,44.38Z" fill="#a6eaca" stroke="#404145" stroke-miterlimit="10" stroke-width="1.5"/><line x1="7.03" y1="26.16" x2="24.79" y2="26.16" fill="none" stroke="#404145" stroke-miterlimit="10" stroke-width="1.5"/><line x1="7.03" y1="33.35" x2="24.79" y2="33.35" fill="none" stroke="#404145" stroke-miterlimit="10" stroke-width="1.5"/><path d="M30.55,25.31a5.16,5.16,0,1,1,10.31,0" fill="none" stroke="#404145" stroke-miterlimit="10" stroke-width="1.5"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44.68 44.26">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #404145;
+        stroke-miterlimit: 10;
+        stroke-width: 1.5px;
+      }
+
+      .cls-2 {
+        fill: #8c52ff;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M23.18,39.35H1.93c-.65,0-1.17-.51-1.18-1.16,0,0,0,0,0-.01V1.93C.75,1.28,1.28,.75,1.93,.75h31.92c.65,0,1.17,.52,1.17,1.17,0,0,0,0,0,.01v14.48"/>
+  <circle class="cls-1" cx="17.07" cy="7.92" r="2.59"/>
+  <polyline class="cls-1" points="8.51 20.91 14.6 14.82 17.22 17.44 22.76 11.9 27.26 16.41"/>
+  <path class="cls-2" d="M43.1,43.51H26.94c-.43,0-.78-.35-.78-.78,0-.02,0-.03,0-.05l.82-14.44c.03-.41,.37-.74,.79-.74h14.55c.41,0,.75,.33,.78,.74l.83,14.44c.02,.44-.31,.81-.75,.83-.03,0-.05,0-.08,0Z"/>
+  <line class="cls-1" x1="6.35" y1="25.29" x2="24.11" y2="25.29"/>
+  <line class="cls-1" x1="6.35" y1="32.48" x2="24.11" y2="32.48"/>
+  <path class="cls-1" d="M29.87,24.44c-.13-2.85,2.08-5.26,4.93-5.38s5.26,2.08,5.38,4.93c0,.15,0,.3,0,.45"/>
+</svg>
