@@ -71,7 +71,7 @@ const HomeTwoHeader = () => {
                                   to="/graphic_details"
                                   className="dropdown-item"
                                 >
-                                  Graphic Design
+                                  Graphics Design
                                 </NavLink>
                               </li>{" "}
                               <li>

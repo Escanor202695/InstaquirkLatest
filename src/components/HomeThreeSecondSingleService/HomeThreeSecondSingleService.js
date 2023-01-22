@@ -7,7 +7,7 @@ const HomeThreeSecondSingleService = ({title}) => {
          <div className="services__nav-content pt-90 pb-90">
             <div className="row">
                <div className="col-xl-5 col-lg-6">
-                  <div className="services__thumb text-lg-right m-img">
+                  <div className="services__thumb text-lg-right m-img md:ml-[3rem]">
                      <img src="assets/img/services/services-1.png" alt="" />
                   </div>
                </div>

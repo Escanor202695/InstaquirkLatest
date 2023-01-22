@@ -11,7 +11,7 @@ const AboutMore = () => {
     },
     {
       id: 2,
-      name: `Graphic Design`,
+      name: `Graphics Design`,
       describe: `Create visually appealing designs for marketing materials.`,
     },
     {
