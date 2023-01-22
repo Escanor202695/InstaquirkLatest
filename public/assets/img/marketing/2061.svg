@@ -1,17 +1,39 @@
-<svg width="48" height="46" viewBox="0 0 48 46" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M46 42H2C1.45 42 1 41.55 1 41V4C1 3.45 1.45 3 2 3H46C46.55 3 47 3.45 47 4V41C47 41.55 46.55 42 46 42Z" stroke="#404145" stroke-width="1.5" stroke-miterlimit="10"/>
-<path d="M1 9H47" stroke="#404145" stroke-width="1.5" stroke-miterlimit="10"/>
-<path d="M25 13H5V32H25V13Z" fill="#A6EACA" stroke="#404145" stroke-width="1.5" stroke-miterlimit="10"/>
-<path d="M4 6H6" stroke="#404145" stroke-width="1.5" stroke-miterlimit="10"/>
-<path d="M8 6H10" stroke="#404145" stroke-width="1.5" stroke-miterlimit="10"/>
-<path d="M12 6H14" stroke="#404145" stroke-width="1.5" stroke-miterlimit="10"/>
-<path d="M21 31V29.5599C21 28.1199 17.7 26 15 26C12.3 26 9 28.1099 9 29.5599V31" fill="white"/>
-<path d="M21 31V29.5599C21 28.1199 17.7 26 15 26C12.3 26 9 28.1099 9 29.5599V31" stroke="#404145" stroke-width="1.5" stroke-miterlimit="10"/>
-<path d="M15 17C12.93 17 11 18.61 11 20.6V22.4C11 24.39 12.93 26 15 26C17.07 26 19 24.39 19 22.4V20.6C19 18.61 17.07 17 15 17Z" fill="white" stroke="#404145" stroke-width="1.5" stroke-miterlimit="10"/>
-<path d="M29 13H42" stroke="#404145" stroke-width="1.5" stroke-miterlimit="10"/>
-<path d="M29 17H42" stroke="#404145" stroke-width="1.5" stroke-miterlimit="10"/>
-<path d="M29 21H36" stroke="#404145" stroke-width="1.5" stroke-miterlimit="10"/>
-<path d="M29 28H42" stroke="#404145" stroke-width="1.5" stroke-miterlimit="10"/>
-<path d="M29 32H42" stroke="#404145" stroke-width="1.5" stroke-miterlimit="10"/>
-<path d="M29 36H36" stroke="#404145" stroke-width="1.5" stroke-miterlimit="10"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 47.5 40.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #404145;
+        stroke-miterlimit: 10;
+        stroke-width: 1.5px;
+      }
+
+      .cls-4, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #8c52ff;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M45.75,39.75H1.75c-.55,0-1-.45-1-1V1.75c0-.55,.45-1,1-1H45.75c.55,0,1,.45,1,1V38.75c0,.55-.45,1-1,1Z"/>
+  <path class="cls-1" d="M.75,6.75H46.75"/>
+  <path class="cls-3" d="M24.75,10.75H4.75V29.75H24.75V10.75Z"/>
+  <path class="cls-1" d="M3.75,3.75h2"/>
+  <path class="cls-1" d="M7.75,3.75h2"/>
+  <path class="cls-1" d="M11.75,3.75h2"/>
+  <path class="cls-4" d="M20.75,28.75v-1.44c0-1.44-3.3-3.56-6-3.56s-6,2.11-6,3.56v1.44"/>
+  <path class="cls-1" d="M20.75,28.75v-1.44c0-1.44-3.3-3.56-6-3.56s-6,2.11-6,3.56v1.44"/>
+  <path class="cls-2" d="M14.75,14.75c-2.07,0-4,1.61-4,3.6v1.8c0,1.99,1.93,3.6,4,3.6s4-1.61,4-3.6v-1.8c0-1.99-1.93-3.6-4-3.6Z"/>
+  <path class="cls-1" d="M28.75,10.75h13"/>
+  <path class="cls-1" d="M28.75,14.75h13"/>
+  <path class="cls-1" d="M28.75,18.75h7"/>
+  <path class="cls-1" d="M28.75,25.75h13"/>
+  <path class="cls-1" d="M28.75,29.75h13"/>
+  <path class="cls-1" d="M28.75,33.75h7"/>
 </svg>

@@ -28,6 +28,11 @@ p:empty{
 } */
 
 /* /first section css/ */
+
+.bdr{
+  border:1px solid red;
+}
+
 .Instaquirk {
   display: inline-block;
   color: #ffff !important;

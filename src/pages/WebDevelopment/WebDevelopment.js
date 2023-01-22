@@ -4,12 +4,12 @@ import HomeTwoFooter from "../HomeTwo/HomeTwoFooter/HomeTwoFooter";
 import CommonPageHeader from "../../components/CommonPageHeader/CommonPageHeader";
 import CommonCtaArea from "../../components/CommonCtaArea/CommonCtaArea";
 import "./webdevelopment.css";
-import Faq from "../HomeTwo/HomeTwoFaq/HomeTwoFaq";
 import Carousel from "react-material-ui-carousel";
 import Hero from "../../components/HeroArea/Hero";
 import Banner from "../../components/Banner/Banner";
 import Categories from "../../components/Categories/Categories";
 import Services from "../../components/Services/Services";
+import Faq from "../HomeTwo/HomeTwoFaq/HomeTwoFaq";
 function webDevelopment(props) {
   const arrayFaq = [
     {
@@ -134,39 +134,31 @@ function webDevelopment(props) {
   const src_mobile = "/assets/img/Web development/programming-tech-mobile.png";
   const text_banner = "If you can dream it, we can design it";
   //category
-  const category_header = "Most Popular in Programming & Tech";
+  const category_header = "Categories In Programming & Tech";
   const service = [
     {
-      title: "Wordpress Developer",
-      src: "assets/img/Web development/WordPress Developers_2x.png",
+      title: "Website Development",
+      src: "assets/img/Web development/web-development.png",
     },
     {
-      title: "Shopify Developers",
+      title: "Shopify Store Build",
       src: "assets/img/Web development/Shopify Developers_2x.png",
     },
     {
-      title: "Wix Developers",
+      title: "Wix Development",
       src: "assets/img/Web development/Wix Developers_2x.png",
     },
     {
-      title: "Android Developers",
+      title: "Wordpress Development",
+      src: "assets/img/Web development/WordPress Developers_2x.png",
+    },
+    {
+      title: "Android Development",
       src: "assets/img/Web development/Android Developers_2x.png",
     },
     {
-      title: "iOS Developers",
+      title: "iOS Development",
       src: "assets/img/Web development/iOS Developers_2x.png",
-    },
-    {
-      title: "Unity Developers",
-      src: "assets/img/Web development/Unity Developers_2x.png",
-    },
-    {
-      title: "HTML & CSS Developers",
-      src: "assets/img/Web development/Html and Css.png",
-    },
-    {
-      title: "JavaScript Developers",
-      src: "assets/img/Web development/JavaScript Developers_2x.png",
     },
   ];
 //hero
@@ -174,7 +166,7 @@ function webDevelopment(props) {
   const headline = "Facilitating beyond";
   const herotext =
     "We have developed a specialty in offering companies of all sizes top-notch web development services. Results that surpass our clients' expectations are what our team of skilled web developers is committed to producing. We can respond to our clients' changing demands and provide solutions that foster success and growth thanks to our flexible and adaptive business model. To remain at the forefront of the industry, we also regularly update our abilities and expertise.";
-  const service_headline = "Our Graphics & Design Services";
+  const service_headline = "Our Tech Services";
   return (
     <div>
       <HomeTwoHeader />
@@ -193,14 +185,14 @@ function webDevelopment(props) {
         <Categories category_header={category_header} cat_item={service} />
         <Services service_headline={service_headline} services={services} />
 
-        <div className="technologies pb-100 technology_customize">
-          <h1>Technologies we work with</h1>
+        <div className="technologies technology_customize my-[7rem] md:mt-[3rem]">
+        <h2 className="mb-[2rem] md:mb-[5rem] text-[30px] md:text-[40px]  font-bold text-black text-center capitalize">technologies we work with</h2>
           <div className="visible-item">
             <div className="tech_items">
               {tech.map((techItem) => {
                 const { src, title } = techItem;
                 return (
-                  <div className="tech_item">
+                  <div className="tech_item mb-[2rem]">
                     <img src={src} alt="" />
                   </div>
                 );
@@ -221,9 +213,9 @@ function webDevelopment(props) {
           </div>
         </div>
 
-        <div className="web-development-life-cycle mb-[10rem]">
-          <h1>Development Lifecycle</h1>
-          <div className="development-image">
+        <div className="web-development-life-cycle mb-[12rem]">
+          <h2 className="mb-0 text-[30px] md:text-[40px] font-bold text-black text-center">Development Lifecycle</h2>
+          <div className="development-image px-[30px] md:px-[40px]">
             <img
               src="/assets/img/dev.png"
               alt="whyhireus"
@@ -236,36 +228,6 @@ function webDevelopment(props) {
             />
           </div>
         </div>
-
-        {/*
-      <div className="pb-80 web-dev">
-        <div className="parent">
-          <div className="web-development text-center">
-            <img
-              src="/assets/img/whyhireus.jpg"
-              alt="vector"
-              className="w-full h-auto visible"
-            />
-          </div>
-          <div className="web-dev-description">
-            <div className="web-development-details">
-              <h1>Why Hire Us?</h1>
-              <p>
-                Straightforward solutions to complex business challenges
-                High-performing, intuitive and secure web solutions that support
-                business processes and serve users globally. Your technology
-                partner for innovative and impactful digital solutions. We
-                deliver custom web development platforms that help our clients
-                in employing capabilities such as micro-personalization,
-                marketing automation, seamless integrations and the ability to
-                become the best brand representative that drive your customers
-                to your end goals.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-*/}
       </div>
       <div>
         <Faq arrayFaq={arrayFaq} />
