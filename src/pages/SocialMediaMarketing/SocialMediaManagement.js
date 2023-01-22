@@ -4,7 +4,7 @@ import CommonPageHeader from "../../components/CommonPageHeader/CommonPageHeader
 import CommonCtaArea from "../../components/CommonCtaArea/CommonCtaArea";
 import HomeTwoFooter from "../HomeTwo/HomeTwoFooter/HomeTwoFooter";
 import Faq from "../HomeTwo/HomeTwoFaq/HomeTwoFaq";
-import MarketingSolution from "../../components/MarketingSolution/MarketingSolution";
+import HomeThreeSecondServices from '../HomeThree/HomeThreeSecondServices/HomeThreeSecondServices';
 import Hero from "../../components/HeroArea/Hero";
 import Banner from "../../components/Banner/Banner";
 import Categories from "../../components/Categories/Categories";
@@ -121,7 +121,7 @@ const array = [
     },
   ];
   //category
-  const category_header = "TOP SOCIAL MEDIA PLATFORMS ";
+  const category_header = "Our Top Services";
   const service = [
     {
       title: "Social Media Management",
@@ -136,7 +136,7 @@ const array = [
       src: "assets/img/marketing/2061.svg",
     },
     {
-      title: "Socila Content",
+      title: "Social Content",
       src: "assets/img/marketing/2062.svg",
     },
     {
@@ -162,9 +162,12 @@ const array = [
   const src = "/assets/img/seo page/seo1.jpg";
   const headline = "Stand out in the digital world";
   const herotext =
-    "We are a digital agency with a focus on social media management, and with the help of our team, businesses can enhance their online presence, connect with their customers, and get the best results through targeted strategies, content creation, community management, influencer partnerships, and ad campaign management.";
-    const service_headline = "Why Social Media Management important?";
-    const height=26;
+   "We specialize in assisting companies and organizations to improve their online visibility and establish connections with their target market through smart and potent social media campaigns. Our team of seasoned experts is adept at developing and putting into effect specialized tactics that boost brand recognition and produce results."
+  
+   const herotext2 = "Development of social media strategies, content production, community management, influencer alliances, and ad campaign management are some of the services we offer. We are dedicated to giving our clients the best outcomes possible."
+
+   const service_headline = "Why Social Media Management important?";
+   const height = "h-[20rem] md:h-[25rem]";
   return (
     <div>
       <HomeTwoHeader />
@@ -173,8 +176,7 @@ const array = [
         subtitle="Amplify your brand's voice"
       />
       <div className="max-w-[86rem] mx-auto overflow-hidden">
-        <Hero src={src} headline={headline} herotext={herotext} />
-
+        <Hero src={src} headline={headline} herotext={herotext} herotext2={herotext2}/>
         <Banner
           src_banner={src_banner}
           src_mobile={src_mobile}
@@ -184,7 +186,7 @@ const array = [
         <Categories category_header={category_header} cat_item={service} />
       </div>
       <Why array={array} service_headline={service_headline} height={height}/>
-      <MarketingSolution />
+      <HomeThreeSecondServices />
       <Faq arrayFaq={arrayFaq} />
       <CommonCtaArea />
       <HomeTwoFooter />

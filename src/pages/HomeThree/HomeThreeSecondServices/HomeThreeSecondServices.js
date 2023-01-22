@@ -27,7 +27,7 @@ const HomeThreeSecondServices = () => {
                            </li>
                            <li className="nav-item mb-30">
                               <a className="nav-link" id="customer-tab" data-bs-toggle="pill" href="#customer" role="tab" aria-controls="customer" aria-selected="true">
-                                 <i ><BsTools/></i> Customer Service
+                                 <i><BsTools/></i> Customer Service
                               </a>
                            </li>
                            <li className="nav-item mb-30">

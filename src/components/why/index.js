@@ -11,7 +11,7 @@ function why({array,service_headline,height}) {
         {array.map(({src,heading,description}) => {
           return (
             <div className="px-[.75rem] w-full sm:w-1/2 md:w-1/3 xl:w-1/5 my-[2rem] ">
-              <div className={  ` md:h-[${height}rem] flex flex-col  bg-white rounded-lg shadow-md p-[20px] pt-[4rem] pb-[2rem] relative ` }>
+              <div className={`${height} flex flex-col  bg-white rounded-lg shadow-md p-[20px] pt-[4rem] pb-[2rem] relative ` }>
                 <img
                   src={src}
                   alt="img"

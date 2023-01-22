@@ -72,7 +72,7 @@ const Process = () => {
         "At the beginning of the cooperation, we will conduct a thorough SEO audit based on which we will come up with Strategic Action Plan for your website. We will choose the best, most converting keywords and implement proper technical optimizations",
       color: "black",
       background: "#FFF",
-      border: "2px solid #3D25B1",
+      border: "2px solid #4536FF",
     },
     {
       id: 2,
@@ -80,8 +80,8 @@ const Process = () => {
       describe:
         "Based on the chosen keywords, we’ll take care of implementing high-quality content and optimizing the one already published on your website. We will do that to increase your website’s online presence which will contribute to attracting new users.",
       color: "#FFF",
-      background: "#3D25B1",
-      border: "2px solid #3D25B1",
+      background: "#4536FF",
+      border: "2px solid #4536FF",
     },
     {
       id: 3,
@@ -90,7 +90,7 @@ const Process = () => {
         "As a part of the link building process, we will build a valuable profile backlink profile using links from a variety of proven, and high-quality sources. With that, we will increase your domain authority in the Google crawlers’ perception.",
       color: "black",
       background: "#FFF",
-      border: "2px solid #3D25B1",
+      border: "2px solid #4536FF",
     },
     {
       id: 4,
@@ -99,7 +99,7 @@ const Process = () => {
         "We constantly monitor the impact of our SEO process on your website traffic and its conversion, and we bring you clear reports of that. We use only proven analytical tools allowing us to conduct full SEO analysis and constantly optimize our actions to bring you better results",
       color: "black",
       background: "#FFF",
-      border: "2px solid #3D25B1",
+      border: "2px solid #4536FF",
     },
   ];
   return (

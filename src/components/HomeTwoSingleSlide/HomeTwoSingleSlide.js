@@ -11,7 +11,7 @@ const HomeTwoSingleSlide = ({
 }) => {
   return (
     <>
-      <div className="single-slider single-slider-2 slider__height slider__height-2 d-flex align-items-center bdr">
+      <div className="single-slider single-slider-2 slider__height slider__height-2 d-flex align-items-center">
         <div className="container">
           <img
             src="assets/img/slider/02/slider-3.jpg"
@@ -25,10 +25,10 @@ const HomeTwoSingleSlide = ({
               objectFit: "cover",
             }}
           />
-          <div className="row ">
+          <div className="row">
             <div className={`${slider_class}`}>
               <div
-                className={`slider__content slider__content-2 bdr lg:pr-[8rem] ${
+                className={`slider__content slider__content-2 lg:pr-[8rem] ${
                   content_class && content_class
                 }`}
               >

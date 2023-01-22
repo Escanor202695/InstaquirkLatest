@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const HomeAbout = ({ opacity }) => {
   return (
     <>
-      <section className="about__area pb-200 pt-100">
+      <section className="about__area md:pb-[100px] pt-100">
         <div className="container">
           <div className="row">
             <div className="col-xl-6 pr-0 col-lg-6">
