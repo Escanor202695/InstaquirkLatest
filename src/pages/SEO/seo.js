@@ -154,7 +154,8 @@ function seo() {
   const headline = "Elevate your online Presence";
   const herotext =
   "We are a digital agency that specializes in SEO, our expert team offers services such as keyword research, on-page optimization, technical SEO, and content marketing to boost website's ranking and drive qualified traffic, let us help you take your online presence to the next level.";
-  const service_headline = "Our Graphics & Design Services";
+  const service_headline = "Why You Need SEO for Your Website?";
+  const height=40;
   return (
     <div>
       <HomeTwoHeader />
@@ -176,7 +177,7 @@ function seo() {
       <div className="customize">
         <WhySeo/>
       </div>
-      <Why array={array}/>
+      <Why array={array} service_headline={service_headline} height={height}/>
       <Cooperation />
       <Process />
       <Faq arrayFaq={arrayFaq} />

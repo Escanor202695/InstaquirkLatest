@@ -163,7 +163,8 @@ const array = [
   const headline = "Stand out in the digital world";
   const herotext =
     "We are a digital agency with a focus on social media management, and with the help of our team, businesses can enhance their online presence, connect with their customers, and get the best results through targeted strategies, content creation, community management, influencer partnerships, and ad campaign management.";
-  const service_headline = "Our Graphics & Design Services";
+    const service_headline = "Why Social Media Management important?";
+    const height=26;
   return (
     <div>
       <HomeTwoHeader />
@@ -182,7 +183,7 @@ const array = [
         />
         <Categories category_header={category_header} cat_item={service} />
       </div>
-      <Why array={array}/>
+      <Why array={array} service_headline={service_headline} height={height}/>
       <MarketingSolution />
       <Faq arrayFaq={arrayFaq} />
       <CommonCtaArea />
