@@ -28,13 +28,13 @@ const HomeTwoSingleSlide = ({
           <div className="row">
             <div className={`${slider_class}`}>
               <div
-                className={`slider__content slider__content-2 ${
+                className={`slider__content slider__content-2 lg:pr-[8rem] ${
                   content_class && content_class
                 }`}
               >
                 {attr_1}
                 {attr_2}
-                <div className="about-ours">
+                <div className="about-ours max-w-[800px]">
                   <p>{attr_3}</p>
                 </div>
 

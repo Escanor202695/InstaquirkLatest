@@ -49,22 +49,22 @@ const ContactArea = () => {
                     <ul>
                       <li>
                         <h4>Address</h4>
-                        <p>
+                        <p className="text-lg">
                           Dhaka, Bangladesh.
                         </p>
                       </li>
                       <li>
-                        <h4>call us</h4>
-                        <p>
-                          <a href="tel:(404)-888-123-456">(404) 888 123 456</a>
+                        <h4>Whatsapp us</h4>
+                        <p className="text-lg">
+                        +8801538425875
                         </p>
-                        <p>
-                          <a href="tel:(204)-888-234-674">(204) 888 234 674</a>
+                        <p className="text-lg">
+                          +8801517310359
                         </p>
                       </li>
                       <li>
                         <h4>Email Address</h4>
-                        <p>
+                        <p className="text-lg">
                           <a href="mailto:Info@example.com">support@instaquirk.agency</a>
                         </p>
                       </li>

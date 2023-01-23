@@ -83,13 +83,13 @@ const HomeTwoFooter = () => {
                     <div className="footer__widget-content">
                       <div className="footer__links">
                         <ul>
-                        <li>
-                          <a href="/homeTwo">Home</a>
-                        </li>
+                          <li>
+                            <a href="/homeTwo">Home</a>
+                          </li>
                           <li>
                             <NavLink to="/about">About</NavLink>
                           </li>
-                         
+
                           <li>
                             <a href="/contact">Contact Us</a>
                           </li>
@@ -154,49 +154,50 @@ const HomeTwoFooter = () => {
                     </div>
                     <div className="">
                       <div className="">
-                        <ul >
-                        <li className="flex gap-2 py-2 items-center">
-                        <div className=" ">
-                        <i className="text-[#4536ff] text-xl ">
-                        {" "}
-                        <FaEnvelope />{" "}
-                        </i>
-                        </div>
-                        <div className="text  font-semibold theme-color ">
-                        <span>
-                        <a href="mailto:support@Instaquirk.com" className="pl-2 ">
-                        support@instaquirk.agency
-                        </a>
-                        </span>
-                        </div>
-                        </li>
-                        <li className="flex gap-2 py-2 items-center">
-                        <div className="icon theme-color  pt-2 mr-1 ">
-                        <i className="text-[#4536ff] text-2xl"> 
-                        <FaWhatsapp />{" "}
-                        </i>
-                        </div>
-                        <div className="text theme-color font-semibold pt-1">
-                        <span>
-                        <a href="tel:(+642)-394-396-432" >
-                        +8801538425875
-                        </a>
-                        </span>
-                        </div>
-                        </li>
-                        <li className="flex gap-2 py-2 items-center">
-                          <div className="icon pt-2 mr-1">
-                            <i className="text-[#4536ff] text-2xl">
-                              {" "}
-                              <BiMap />{" "}
-                            </i>
-                          </div>
-                          <div className="text font-semibold pt-1">
-                            <span>
-                              Dhaka, Bangladesh.
-                            </span>
-                          </div>
-                        </li>
+                        <ul>
+                          <li className="flex gap-2 py-1 items-center">
+                            <div className=" ">
+                              <i className="text-[#4536ff] text-xl ">
+                                {" "}
+                                <FaEnvelope />{" "}
+                              </i>
+                            </div>
+                            <div className="text  font-semibold theme-color ">
+                              <span>
+                                <a
+                                  href="mailto:support@Instaquirk.com"
+                                  className="pl-2 "
+                                >
+                                  support@instaquirk.agency
+                                </a>
+                              </span>
+                            </div>
+                          </li>
+                          <li className="flex gap-2 py-1 items-center">
+                            <div className="icon theme-color  pt-2 mr-1 ">
+                              <i className="text-[#4536ff] text-2xl">
+                                <FaWhatsapp />{" "}
+                              </i>
+                            </div>
+                            <div className="text theme-color font-semibold pt-1">
+                              <span>
+                                <a href="tel:(+642)-394-396-432">
+                                  +8801538425875
+                                </a>
+                              </span>
+                            </div>
+                          </li>
+                          <li className="flex gap-2 py-1 items-center">
+                            <div className="icon pt-2 mr-1">
+                              <i className="text-[#4536ff] text-2xl">
+                                {" "}
+                                <BiMap />{" "}
+                              </i>
+                            </div>
+                            <div className="text font-semibold pt-1">
+                              <span>Dhaka, Bangladesh.</span>
+                            </div>
+                          </li>
                         </ul>
                       </div>
                     </div>

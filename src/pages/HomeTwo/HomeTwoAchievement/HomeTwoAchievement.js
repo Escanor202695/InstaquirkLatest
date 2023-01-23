@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const HomeTwoAchievement = () => {
   return (
     <>
-      <section className="achievement__area pt-135 pb-40 ">
+      <section className="achievement__area py-[2rem] pb-[3rem] md:py-[5rem] md:pb-[8rem]">
         <div className="container">
           <div className="row">
             <div className="col-xl-5 col-lg-6 col-md-6">
@@ -39,7 +39,7 @@ const HomeTwoAchievement = () => {
                     </div>
                   </div>
                   <Link
-                    to="/about"
+                    to="/homeTwo"
                     className="z-btn"
                 
                   >

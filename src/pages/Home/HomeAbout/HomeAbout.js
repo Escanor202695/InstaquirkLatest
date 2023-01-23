@@ -1,14 +1,11 @@
-
 import { CgArrowLongRight } from "react-icons/cg";
 import { FaCheck } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-
-
 const HomeAbout = ({ opacity }) => {
   return (
     <>
-      <section className="about__area pb-200 pt-100">
+      <section className="about__area md:pb-[100px] pt-100">
         <div className="container">
           <div className="row">
             <div className="col-xl-6 pr-0 col-lg-6">
@@ -23,43 +20,41 @@ const HomeAbout = ({ opacity }) => {
               <div className="common-section">
                 <div className="about__content">
                   <div className="section__title mb-25">
-                   
-                    <h2 className="about-heading">
-                      Dreams Get Into Reality
-                    </h2>
+                    <h2 className="about-heading">Who are we?</h2>
                   </div>
                   <p>
-                    We are committed to customers success from start to finish.
-                    Our input helps make their solutions stand out from the
-                    crowd.
+                    Welcome to our digital agency based in the heart of Dhaka,
+                    Bangladesh. We are a team of experienced and dedicated
+                    professionals who collaborate with experts from around the
+                    world to provide our clients with exceptional digital
+                    services. Our core services include web development, SEO,
+                    graphics design, and social media management, each of which
+                    are tailored to meet the specific needs of your business.
                   </p>
                   <div className="">
                     <ul>
                       <li>
-                        <span className="flex gap-2 hover:text-[#4536ff] group items-center my-2">
+                        <span className="flex gap-2 hover:text-[#4536ff] group items-center my-2 cursor-pointer transition-all ease-in">
                           <i className="text-[#4536FF]  bg-[#EDF2F7] text-[8.5px] group-hover:text-white group-hover:bg-[#4536ff] transition-colors  items-center flex justify-center  rounded-full h-[18px] w-[18px] ">
-                            
                             <FaCheck />
                           </i>
                           Creative ideas
                         </span>
                       </li>
                       <li>
-                        <span className="flex gap-2 hover:text-[#4536ff] group items-center my-2">
+                        <span className="flex gap-2 hover:text-[#4536ff] group items-center my-2 cursor-pointer transition-all ease-in">
                           <i className="text-[#4536FF]  bg-[#EDF2F7] text-[8.5px] group-hover:text-white group-hover:bg-[#4536ff] transition-colors text-sm items-center flex justify-center  rounded-full h-[18px] w-[18px] ">
-                            
                             <FaCheck />
                           </i>
                           Professional assistance
                         </span>
                       </li>
                       <li>
-                        <span className="flex gap-2 hover:text-[#4536ff] group items-center my-2">
+                        <span className="flex gap-2 hover:text-[#4536ff] group items-center my-2 cursor-pointer transition-all ease-in">
                           <i className="text-[#4536FF]  bg-[#EDF2F7] text-[8.5px] group-hover:text-white group-hover:bg-[#4536ff] transition-colors text-sm items-center flex justify-center  rounded-full h-[18px] w-[18px] ">
-                            
                             <FaCheck />
                           </i>
-                          Assisting professionals
+                          Competitive pricing
                         </span>
                       </li>
                     </ul>
@@ -86,6 +81,3 @@ const HomeAbout = ({ opacity }) => {
 };
 
 export default HomeAbout;
-
-
-

@@ -32,7 +32,6 @@ p:empty{
 .bdr{
   border:1px solid red;
 }
-
 .Instaquirk {
   display: inline-block;
   color: #ffff !important;
@@ -616,7 +615,8 @@ p.about__describe {
 }
 
 .Cooperation_content_item:hover {
-  background: #3820af !important;
+  background: #4536FF !important;
+  border-color:#4536FF !important ;
   cursor: pointer;
 }
 

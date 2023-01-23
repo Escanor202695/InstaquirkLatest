@@ -15,12 +15,12 @@ function webDevelopment(props) {
     {
       question: "How do you approach web development projects?",
       solution:
-        "For web development projects, we adhere to a defined procedure to guarantee that each is completed on schedule and with the highest level of quality. Gathering requirements, design, development, testing, and deployment are frequently included in this process."
+        "For web development projects, we adhere to a defined procedure to guarantee that each is completed on schedule and with the highest level of quality. Gathering requirements, design, development, testing, and deployment are frequently included in this process.",
     },
     {
       question: "Do you offer responsive web design?",
       solution:
-        "Yes, we come with responsive web design by default. As a result, the websites we design will be suitable for browsing on a variety of gadgets, such as desktop computers, tablets, and smartphones."
+        "Yes, we come with responsive web design by default. As a result, the websites we design will be suitable for browsing on a variety of gadgets, such as desktop computers, tablets, and smartphones.",
     },
     {
       question: "Do you have experience with e-commerce development?",
@@ -30,7 +30,7 @@ function webDevelopment(props) {
     {
       question: "Do you have experience with e-commerce development?",
       solution:
-      "Yes, we have experience creating e-commerce websites and can aid with the setup of an online store for the sale of your goods or services."
+        "Yes, we have experience creating e-commerce websites and can aid with the setup of an online store for the sale of your goods or services.",
     },
   ];
   const services = [
@@ -161,11 +161,13 @@ function webDevelopment(props) {
       src: "assets/img/Web development/iOS Developers_2x.png",
     },
   ];
-//hero
+  //hero
   const src = "/assets/img/Web development/web.png";
   const headline = "Facilitating beyond";
   const herotext =
-    "We have developed a specialty in offering companies of all sizes top-notch web development services. Results that surpass our clients' expectations are what our team of skilled web developers is committed to producing. We can respond to our clients' changing demands and provide solutions that foster success and growth thanks to our flexible and adaptive business model. To remain at the forefront of the industry, we also regularly update our abilities and expertise.";
+    "We specialized in providing high-quality web development services to businesses of all sizes. Our team of experienced web developers is committed to delivering results that exceed our clients' expectations.";
+  const herotext2 =
+    "Our flexible and adaptable approach allows us to meet the changing needs of our clients and deliver solutions that drive growth and success. We are also constantly updating our skills and knowledge to stay at the forefront of the industry.";
   const service_headline = "Our Tech Services";
   const page="web"
   return (
@@ -176,7 +178,12 @@ function webDevelopment(props) {
         subtitle="Making websites that capture users"
       />
       <div className="max-w-[86rem] mx-auto overflow-hidden">
-        <Hero src={src} headline={headline} herotext={herotext} />
+        <Hero
+          src={src}
+          headline={headline}
+          herotext={herotext}
+          herotext2={herotext2}
+        />
 
         <Banner
           src_banner={src_banner}
@@ -188,7 +195,9 @@ function webDevelopment(props) {
         <Services service_headline={service_headline} services={services} />
 
         <div className="technologies technology_customize my-[7rem] md:mt-[3rem]">
-        <h2 className="mb-[2rem] md:mb-[5rem] text-[30px] md:text-[40px]  font-bold text-black text-center capitalize">technologies we work with</h2>
+          <h2 className="mb-[2rem] md:mb-[5rem] text-[30px] md:text-[40px]  font-bold text-black text-center capitalize">
+            technologies we work with
+          </h2>
           <div className="visible-item">
             <div className="tech_items">
               {tech.map((techItem) => {
@@ -216,7 +225,9 @@ function webDevelopment(props) {
         </div>
 
         <div className="web-development-life-cycle mb-[12rem]">
-          <h2 className="mb-0 text-[30px] md:text-[40px] font-bold text-black text-center">Development Lifecycle</h2>
+          <h2 className="mb-0 text-[30px] md:text-[40px] font-bold text-black text-center">
+            Development Lifecycle
+          </h2>
           <div className="development-image px-[30px] md:px-[40px]">
             <img
               src="/assets/img/dev.png"
@@ -231,9 +242,7 @@ function webDevelopment(props) {
           </div>
         </div>
       </div>
-      <div>
-        <Faq arrayFaq={arrayFaq} />
-      </div>
+      <Faq arrayFaq={arrayFaq} />
       <CommonCtaArea />
       <HomeTwoFooter />
     </div>

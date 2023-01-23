@@ -11,7 +11,7 @@ const AboutMore = () => {
     },
     {
       id: 2,
-      name: `Graphic Design`,
+      name: `Graphics Design`,
       describe: `Create visually appealing designs for marketing materials.`,
     },
     {
@@ -35,7 +35,7 @@ const AboutMore = () => {
               <div className="common-section">
                 <div className="about__content">
                   <div className="section__title mb-25">
-                    <span>SOME REASONS TO WORK TOGETHER</span>
+                    <span>Why Choose Us?</span>
                     <h2 className="about-heading">
                     Providing the top notch services regarding
                     </h2>

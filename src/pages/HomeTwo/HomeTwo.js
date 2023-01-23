@@ -38,17 +38,14 @@ const HomeTwo = () => {
     }
   ];
 
-  
-
   return (
     <>
       <PageHelmet pageTitle="Instaquirk" />
       <HomeTwoHeader />
-      <HomeTwoHeroSlider /> 
-      <HomeTwoFeatures />
-      
-      <HomeTwoAchievement />
-      <HomeTwoExpertArea />
+      <HomeTwoHeroSlider/> 
+      <HomeTwoFeatures/>
+      <HomeTwoAchievement/>
+      <HomeTwoExpertArea/>
       {/*<HomeTwoCounter/>
       <HomeTwoTestimonial />*/}
       {/* <HomeTwoCaseArea /> */}

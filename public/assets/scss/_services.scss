@@ -156,8 +156,13 @@
             font-size: 18px;
             color: $black;
             font-weight: 500;
+            display: flex;
+            align-items: center;
+
             & i{
-                display: inline-block;
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 width: 60px;
                 height: 60px;
                 text-align: center;
