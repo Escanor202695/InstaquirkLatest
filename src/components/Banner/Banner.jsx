@@ -17,8 +17,7 @@
         <p
             className=" md:hidden leading-[30px] lg:leading-relaxed font-bold w-[350px] text-[22px] sm:text-[28px] md:text-[22px] lg:text-[30px]
                 lg:w-[450px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2
-                text-center" style={{color:page==="seo"?"black":"white",marginLeft:page==="seo"?"1rem":null,color:page==="social"?"black":"white"}} 
-        >
+                text-center" >
             {text_banner}
         </p>
         </div>

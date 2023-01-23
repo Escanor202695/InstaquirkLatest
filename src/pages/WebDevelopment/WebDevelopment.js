@@ -167,6 +167,7 @@ function webDevelopment(props) {
   const herotext =
     "We have developed a specialty in offering companies of all sizes top-notch web development services. Results that surpass our clients' expectations are what our team of skilled web developers is committed to producing. We can respond to our clients' changing demands and provide solutions that foster success and growth thanks to our flexible and adaptive business model. To remain at the forefront of the industry, we also regularly update our abilities and expertise.";
   const service_headline = "Our Tech Services";
+  const page="web"
   return (
     <div>
       <HomeTwoHeader />
@@ -181,6 +182,7 @@ function webDevelopment(props) {
           src_banner={src_banner}
           src_mobile={src_mobile}
           text_banner={text_banner}
+          page={page}
         />
         <Categories category_header={category_header} cat_item={service} />
         <Services service_headline={service_headline} services={services} />
