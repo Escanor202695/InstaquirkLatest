@@ -162,7 +162,7 @@ function webDevelopment(props) {
     },
   ];
   //hero
-  const src = "/assets/img/Web development/web.png";
+  const src = "/assets/img/Web development/web.webp";
   const headline = "Facilitating beyond";
   const herotext =
     "We specialized in providing high-quality web development services to businesses of all sizes. Our team of experienced web developers is committed to delivering results that exceed our clients' expectations.";

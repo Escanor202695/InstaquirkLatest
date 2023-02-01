@@ -154,12 +154,12 @@ const array = [
   ];
   //banner
   const src_banner =
-    "/assets/img/updated image/social_media.png";
+    "/assets/img/updated image/social_media.webp";
   const src_mobile =
-    "/assets/img/updated image/social_media.png";
+    "/assets/img/updated image/social_media.webp";
   const text_banner ="";
   //hero
-  const src = "/assets/img/seo page/seo1.jpg";
+  const src = "/assets/img/seo page/1.webp";
   const headline = "Stand out in the digital world";
   const herotext =
    "We specialize in assisting companies and organizations to improve their online visibility and establish connections with their target market through smart and potent social media campaigns. Our team of seasoned experts is adept at developing and putting into effect specialized tactics that boost brand recognition and produce results."
