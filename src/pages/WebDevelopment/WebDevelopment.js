@@ -36,7 +36,7 @@ function webDevelopment(props) {
   const services = [
     {
       title: "Websites",
-      src: "assets/img/Web development/Website Development_2x.png",
+      src: "assets/img/Web development/Website Development_2x.webp",
       item: [
         "Website Development",
         "Website Maintenance",
@@ -47,12 +47,12 @@ function webDevelopment(props) {
     },
     {
       title: "Website Platforms",
-      src: "assets/img/Web development/Website Platforms.png",
+      src: "assets/img/Web development/Website Platforms.webp",
       item: ["Wordpress", "Wix", "Webflow", "Squarespace", "GoDaddy"],
     },
     {
       title: "Application Development",
-      src: "assets/img/Web development/Application Development_2x.png",
+      src: "assets/img/Web development/Application-Development_2x.webp",
       item: [
         "Mobile Apps",
         "Web Programming",
@@ -64,7 +64,7 @@ function webDevelopment(props) {
     },
     {
       title: "Support &   Cybersecurity",
-      src: "assets/img/Web development/Support_Cybersecurity_2x.png",
+      src: "assets/img/Web development/Support_Cybersecurity_2x.webp",
       item: [
         "Support & IT",
         "DevOps & Clouds ",
@@ -75,7 +75,7 @@ function webDevelopment(props) {
     },
     {
       title: "Miscellaneous",
-      src: "assets/img/Web development/Miscellaneous_2x.png",
+      src: "assets/img/Web development/Miscellaneous_2x.webp",
       item: [
         "Electronics Engineering",
         "QA & Review",
@@ -87,45 +87,45 @@ function webDevelopment(props) {
   ];
   const tech = [
     {
-      src: "assets/tech/angular.png",
+      src: "assets/tech/angular.webp",
       title: "Angular JS",
     },
     {
-      src: "assets/tech/react.png",
+      src: "assets/tech/react.webp",
       title: "React JS",
     },
     {
-      src: "assets/tech/next.png",
+      src: "assets/tech/next.webp",
       title: "Next Js",
     },
 
     {
-      src: "assets/tech/vue.png",
+      src: "assets/tech/vue.webp",
       title: "Vue JS",
     },
     {
-      src: "assets/tech/node.png",
+      src: "assets/tech/node.webp",
       title: "Node JS",
     },
     {
-      src: "assets/tech/mongo.png",
+      src: "assets/tech/mongo.webp",
       title: "mongoDB Database",
     },
     {
-      src: "assets/tech/laravel.png",
+      src: "assets/tech/laravel.webp",
       title: "Laravel",
     },
 
     {
-      src: "assets/tech/mysql.png",
+      src: "assets/tech/mysql.webp",
       title: "mySQL",
     },
     {
-      src: "assets/tech/word.png",
+      src: "assets/tech/word.webp",
       title: "Wordpress",
     },
     {
-      src: "assets/tech/shopify.png",
+      src: "assets/tech/shopify.webp",
       title: "Shopify",
     },
   ];
@@ -138,27 +138,27 @@ function webDevelopment(props) {
   const service = [
     {
       title: "Website Development",
-      src: "assets/img/Web development/web-development.png",
+      src: "assets/img/Web development/web-development.webp",
     },
     {
       title: "Shopify Store Build",
-      src: "assets/img/Web development/Shopify Developers_2x.png",
+      src: "assets/img/Web development/Shopify Developers_2x.webp",
     },
     {
       title: "Wix Development",
-      src: "assets/img/Web development/Wix Developers_2x.png",
+      src: "assets/img/Web development/Wix Developers_2x.webp",
     },
     {
       title: "Wordpress Development",
-      src: "assets/img/Web development/WordPress Developers_2x.png",
+      src: "assets/img/Web development/WordPress Developers_2x.webp",
     },
     {
       title: "Android Development",
-      src: "assets/img/Web development/Android Developers_2x.png",
+      src: "assets/img/Web development/Android-Developers_2x.webp",
     },
     {
       title: "iOS Development",
-      src: "assets/img/Web development/iOS Developers_2x.png",
+      src: "assets/img/Web development/iOS Developers_2x.webp",
     },
   ];
   //hero
@@ -230,12 +230,12 @@ function webDevelopment(props) {
           </h2>
           <div className="development-image px-[30px] md:px-[40px]">
             <img
-              src="/assets/img/dev.png"
+              src="/assets/img/dev.webp"
               alt="whyhireus"
               className="w-full h-auto hidden md:flex visible"
             />
             <img
-              src="/assets/img/devMobile.png"
+              src="/assets/img/devMobile.webp"
               alt="whyhireus"
               className="w-full h-auto hidden md:flex invisible"
             />

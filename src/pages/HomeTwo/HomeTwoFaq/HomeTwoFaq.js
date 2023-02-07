@@ -25,7 +25,7 @@ const HomeTwoFaq = ({ arrayFaq }) => {
         <div
           className="lg:w-[45%] bg-green-500"
           style={{
-            background: `url(assets/img/44.jpg)`,
+            background: `url(assets/img/44.webp)`,
             backgroundPosition: "top",
             backgroundSize: "cover",
           }}

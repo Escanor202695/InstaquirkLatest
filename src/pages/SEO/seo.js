@@ -34,58 +34,7 @@ function seo() {
         "Product pages need to be optimized for an eCommerce website to be successful. Different approaches and eCommerce SEO strategies would be applicable depending on your industry. In other industries, part numbers may not be often searched, yet many manufacturers or part dealers increase organic search traffic by ranking for SKU numbers and part numbers. Prior to implementing a strategy, we will attempt to determine which keywords we must focus on for your product pages. In order to SEO hundreds or thousands of product pages at once, we also employ dynamic optimization techniques that can alter all product pages at once. The ultimate objective is to move customers as rapidly as possible from the product page to the checkout.",
     },
   ];
-  const services = [
-    {
-      title: "Websites",
-      src: "assets/img/Web development/Website Development_2x.png",
-      item: [
-        "Website Development",
-        "Website Maintenance",
-        "E-commerce Development",
-        "Custom Websites",
-        "NFT Websites",
-      ],
-    },
-    {
-      title: "Website Platforms",
-      src: "assets/img/Web development/Website Platforms.png",
-      item: ["Wordpress", "Wix", "Webflow", "Squarespace", "GoDaddy"],
-    },
-    {
-      title: "Application Development",
-      src: "assets/img/Web development/Application Development_2x.png",
-      item: [
-        "Mobile Apps",
-        "Web Programming",
-        "Desktop Applications",
-        "Chatbots",
-        "Game Development",
-        "Blockchain & Cryptocurrency",
-      ],
-    },
-    {
-      title: "Support &   Cybersecurity",
-      src: "assets/img/Web development/Support_Cybersecurity_2x.png",
-      item: [
-        "Support & IT",
-        "DevOps & Clouds ",
-        "Cyber Security & Data Protection",
-        "Development for Streamers",
-        "Convert Files",
-      ],
-    },
-    {
-      title: "Miscellaneous",
-      src: "assets/img/Web development/Miscellaneous_2x.png",
-      item: [
-        "Electronics Engineering",
-        "QA & Review",
-        "User Testing",
-        "Online Coding Lessons",
-        "Other",
-      ],
-    },
-  ];
+
   //why
   const array = [
     {

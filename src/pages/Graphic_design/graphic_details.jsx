@@ -13,31 +13,31 @@
     import Sample from "../../components/Sample/Sample";
     function graphic_details() {
     const images = [
-        "/assets/img/graphics/1.png",
-        "/assets/img/graphics/2.png",
-        "/assets/img/graphics/38.png",
-        "/assets/img/graphics/4.png",
-        "/assets/img/graphics/5.png",
-        "/assets/img/graphics/6.png",
-        "/assets/img/graphics/33.png",
-        "/assets/img/graphics/8.png",
-        "/assets/img/graphics/15.png",
-        "/assets/img/graphics/11.png",
-        "/assets/img/graphics/19.png",
-        "/assets/img/graphics/13.png",
-        "/assets/img/graphics/14.png",
-        "/assets/img/graphics/10.png",
-        "/assets/img/graphics/16.png",
-        "/assets/img/graphics/17.png",
-        "/assets/img/graphics/18.png",
-        "/assets/img/graphics/30.png",
-        "/assets/img/graphics/12.png",
-        "/assets/img/graphics/20.png",
-        "/assets/img/graphics/37.png",
-        "/assets/img/graphics/3.png",
-        "/assets/img/graphics/39.png",
+        "/assets/img/graphics/1.webp",
+        "/assets/img/graphics/2.webp",
+        "/assets/img/graphics/38.webp",
+        "/assets/img/graphics/4.webp",
+        "/assets/img/graphics/5.webp",
+        "/assets/img/graphics/6.webp",
+        "/assets/img/graphics/33.webp",
+        "/assets/img/graphics/8.webp",
+        "/assets/img/graphics/15.webp",
+        "/assets/img/graphics/11.webp",
+        "/assets/img/graphics/19.webp",
+        "/assets/img/graphics/13.webp",
+        "/assets/img/graphics/14.webp",
+        "/assets/img/graphics/10.webp",
+        "/assets/img/graphics/16.webp",
+        "/assets/img/graphics/17.webp",
+        "/assets/img/graphics/18.webp",
+        "/assets/img/graphics/30.webp",
+        "/assets/img/graphics/12.webp",
+        "/assets/img/graphics/20.webp",
+        "/assets/img/graphics/37.webp",
+        "/assets/img/graphics/3.webp",
+        "/assets/img/graphics/39.webp",
 
-        "/assets/img/graphics/7.png",
+        "/assets/img/graphics/7.webp",
     ];
     const arrayFaq = [
         {
@@ -65,12 +65,12 @@
     const services = [
         {
         title: "Logo & Brand Identity",
-        src: "assets/img/graphics_page/Logo _ Brand Identity_B_2x.png",
+        src: "assets/img/graphics_page/Logo _ Brand Identity_B_2x.webp",
         item: ["Logo Design", "Brand Style Guides", "Font & Typography"],
         },
         {
         title: "Web & App Design",
-        src: "assets/img/graphics_page/Web _ App_2x.png",
+        src: "assets/img/graphics_page/Web _ App_2x.webp",
         item: [
             "Website Design",
             "App Design",
@@ -81,12 +81,12 @@
         },
         {
         title: "Art & Illustration",
-        src: "assets/img/graphics_page/Art _Illustration_2x.png",
+        src: "assets/img/graphics_page/Art _Illustration_2x.webp",
         item: ["Illustration", "Portraits & B Caricatures", "Abstract Design"],
         },
         {
         title: "Marketing Design",
-        src: "assets/img/graphics_page/Social_Media_2x.png",
+        src: "assets/img/graphics_page/Social_Media_2x.webp",
         item: [
             "Social Media Design",
             "Email Design",
@@ -108,12 +108,12 @@
         },
         {
         title: "Fashion & Merchandise",
-        src: "assets/img/graphics_page/Fashion_Merchandise_2x.png",
+        src: "assets/img/graphics_page/Fashion_Merchandise_2x.webp",
         item: ["Fashion Design", "T-shirt & Merchandise", "Jewelry Design"],
         },
         {
         title: "Visual Design",
-        src: "assets/img/graphics_page/Visual Design_2x.png",
+        src: "assets/img/graphics_page/Visual Design_2x.webp",
         item: [
             "Image Design",
             "Presentation Design",
@@ -124,7 +124,7 @@
         },
         {
         title: "Packaging & Covers",
-        src: "assets/img/graphics_page/Packaging_Labels_2x.png",
+        src: "assets/img/graphics_page/Packaging_Labels_2x.webp",
         item: [
             "Packaging & Level Design",
             "Book Design",
@@ -138,33 +138,33 @@
     const service = [
         {
         title: "Minimalist Logo Design",
-        src: "assets/img/graphics_page/design/Logo design_2x.png",
+        src: "assets/img/graphics_page/design/Logo design_2x.webp",
         },
         {
         title: "Illustration",
-        src: "assets/img/graphics_page/design/Illustration_2x.png",
+        src: "assets/img/graphics_page/design/Illustration_2x.webp",
         },
         {
         title: "Website Design",
-        src: "assets/img/graphics_page/design/Web Design.png",
+        src: "assets/img/graphics_page/design/Web Design.webp",
         },
         {
         title: "Image Editing",
-        src: "assets/img/graphics_page/design/Photoshop Editing_2x.png",
+        src: "assets/img/graphics_page/design/Photoshop Editing_2x.webp",
         },
         {
         title: "T-shirt & Merchandise",
-        src: "assets/img/graphics_page/design/T-Shirts _ Merchandise_2x.png",
+        src: "assets/img/graphics_page/design/T-Shirts _ Merchandise_2x.webp",
         },
         {
         title: "Social Media Design",
-        src: "assets/img/graphics_page/design/Social Media Design_2x.png",
+        src: "assets/img/graphics_page/design/Social Media Design_2x.webp",
         },
     ];
     const category_header = "Our Graphics & Design Services";
     //banner
-    const src_banner = "/assets/img/graphics_page/graphics-design-desktop.png";
-    const src_mobile = "/assets/img/graphics_page/graphics-design-mobile.png";
+    const src_banner = "/assets/img/graphics_page/graphics-design-desktop.webp";
+    const src_mobile = "/assets/img/graphics_page/graphics-design-mobile.webp";
     const text_banner = "Imagination Bleeds From The Pen Of Creativity";
     //Herosection
     const src = "/assets/img/graphics/page/top (1).webp";
