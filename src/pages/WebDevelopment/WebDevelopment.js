@@ -13,6 +13,21 @@ import Faq from "../HomeTwo/HomeTwoFaq/HomeTwoFaq";
 function webDevelopment(props) {
   const arrayFaq = [
     {
+      question: "How much does a website cost?",
+      solution:
+        "The price of a new website will vary based on how many pages and features you need as each website is customized to each customer's needs. However, we are pleased to customize packages to match your budget, always maintain low rates, and offer honest pricing. A website from Parker Digital starts at $750 as a starting price.",
+    },
+    {
+      question: "Is SEO included with my website?",
+      solution:
+        "No, monthly SEO was not included in the website's creation. Google will view all content (text, photos, and videos), but that does not guarantee that your website will come in at the top of the search results. We advise monthly SEO services from a team of experts to improve your position in Google's organic search results.",
+    },
+    {
+      question: "Who writes the website text?",
+      solution:
+        "You are welcome to compose and provide the website with any and all text that you choose. You are the expert on your company, after all. If you need assistance with this, we can provide a copywriter for you to edit your text or produce unique material at a rate of $50 per hour.",
+    },
+    {
       question: "How do you approach web development projects?",
       solution:
         "For web development projects, we adhere to a defined procedure to guarantee that each is completed on schedule and with the highest level of quality. Gathering requirements, design, development, testing, and deployment are frequently included in this process.",
@@ -26,11 +41,6 @@ function webDevelopment(props) {
       question: "Do you have experience with e-commerce development?",
       solution:
         "Of course, we can help you out with proper and professional website maintenance in addition to development as it supports in achieving stabilized growth, keeping your business inclined.",
-    },
-    {
-      question: "Do you have experience with e-commerce development?",
-      solution:
-        "Yes, we have experience creating e-commerce websites and can aid with the setup of an online store for the sale of your goods or services.",
     },
   ];
   const services = [

@@ -41,25 +41,25 @@
     ];
     const arrayFaq = [
         {
-        question: "Don't have hosting right now. Can we start?",
+        question: "How much do your services cost?",
         solution:
-            "Absolutely! We would start the development on our development server. Once the website build is complete, we will transfer to your hosting. You can also have us host your website for a minimal monthly fee.",
+            "Depending on the size and complexity of the project, different services have different prices. Based on each client's unique requirements, we deliver personalized quotations."
         },
         {
         question:
-            "What do you need to get started?",
+            "Can you accommodate rush orders or tight deadlines?",
         solution:
-            "You will have to provide us with : Project brief which describes the Main Idea and specific details, pictures,logo, content, WordPress login details. If you missing some of the requirements just contact us and we will help you with everything. If you need help in any of them, Contact us.",
+            "Tight deadlines will always be accommodated, however this may increase the project's cost. Before beginning the project, we will clearly explain the impact on the timeframe and budget.",
         },
         {
-        question: "Will you maintain my site for me?",
+        question: "How do you handle revisions or changes to the project?",
         solution:
-            "Of course, we can help you out with proper and professional website maintenance in addition to development as it supports in achieving stabilized growth, keeping your business inclined.",
+            "We are dedicated to providing our clients with high-quality work that fulfills their demands and expectations. We will work with you to make any necessary tweaks or changes up until you are totally satisfied with the outcome."
         },
         {
-        question: "Will my website be mobile-friendly?",
+        question: "What is your process for collaborating with clients?",
         solution:
-            "It also increases the number of visitors, rankings in search engines.Yes, we ensure to develop a responsive website that would make your visitors appealing and deliver an optimized browsing experience.",
+            "In order to ensure a successful end, our process for working with customers includes regular check-ins, open communication, and a willingness to listen and make adjustments as necessary."
         },
     ];
     const services = [
