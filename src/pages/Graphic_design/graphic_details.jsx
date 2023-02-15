@@ -167,7 +167,7 @@
     const src_mobile = "/assets/img/graphics_page/graphics-design-mobile.webp";
     const text_banner = "Imagination Bleeds From The Pen Of Creativity";
     //Herosection
-    const src = "/assets/img/graphics/page/top (1).webp";
+    const src = "/assets/img/graphics/page/top_1_20.webp";
     const headline = "A mint of creativity";
     const herotext =
         "  Need to make a lasting impression? The right combination of colors, shapes and words will define your brand. Get the perfect design and ensure your branding hits the spot with these services. Whether it is a company or oneself to establish unique identity visuals matters. Our team across the world uses the power of creativity to transform businesses for the better .";

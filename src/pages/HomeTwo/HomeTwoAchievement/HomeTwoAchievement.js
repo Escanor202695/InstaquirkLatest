@@ -39,11 +39,11 @@ const HomeTwoAchievement = () => {
                     </div>
                   </div>
                   <Link
-                    to="/homeTwo"
+                    to="/contact"
                     className="z-btn"
                 
                   >
-                    Explore More
+                    Contact Us
                   </Link>
                 </div>
               </div>

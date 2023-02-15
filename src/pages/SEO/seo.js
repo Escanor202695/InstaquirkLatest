@@ -103,7 +103,7 @@ function seo() {
     "/assets/img/updated image/Blue Minimalist SEO Specialist LinkedIn Banner (500 × 312px) (1).webp";
   const text_banner = "";
   //hero
-  const src = "/assets/img/seo page/1.webp";
+  const src = "/assets/img/seo page/1_40.webp";
   const headline = "Elevate your online Presence";
   const herotext =
     "We specialize in helping businesses improve their online visibility and reach through targeted and effective search engine optimization strategies. Our team of expert SEO professionals has a wealth of experience in the industry and a track record of success in helping our clients achieve their digital marketing goals.";

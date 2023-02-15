@@ -10,7 +10,7 @@ const HomeAbout = ({ opacity }) => {
           <div className="row">
             <div className="col-xl-6 pr-0 col-lg-6">
               <div className="about__thumb m-img">
-                <img src="assets/instaquirkbg/31.jpg" alt="" />
+                <img src="assets/instaquirkbg/31.webp" alt="" />
                 <div className="about__shape">
                   {/* <img src="assets/instaquirkbg/2.jpg" alt=""/> */}
                 </div>

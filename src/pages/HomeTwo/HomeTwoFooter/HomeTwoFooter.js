@@ -50,6 +50,7 @@ const HomeTwoFooter = () => {
                               </i>
                             </a>
                           </li>
+                          {/* 
                           <li>
                             <a href="#">
                               <i>
@@ -70,6 +71,7 @@ const HomeTwoFooter = () => {
                               </i>
                             </a>
                           </li>
+                        */}
                         </ul>
                       </div>
                     </div>
